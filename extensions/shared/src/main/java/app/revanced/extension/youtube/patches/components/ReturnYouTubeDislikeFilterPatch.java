@@ -36,11 +36,12 @@ import app.revanced.extension.youtube.shared.VideoInformation;
 public final class ReturnYouTubeDislikeFilterPatch extends Filter {
 
     /**
-     * Last unique video id's loaded.  Value is ignored and Map is treated as a Set.
-     * Cannot use {@link LinkedHashSet} because it's missing #removeEldestEntry().
+     * Last unique video id's loaded.
+     * Key is a String represeting the video id.
+     * Value is a ByteArrayFilterGroup used for performing KMP pattern searching.
      */
     @GuardedBy("itself")
-    private static final Map<String, Boolean> lastVideoIds = new LinkedHashMap<>() {
+    private static final Map<String, ByteArrayFilterGroup> lastVideoIds = new LinkedHashMap<>() {
         /**
          * Number of video id's to keep track of for searching thru the buffer.
          * A minimum value of 3 should be sufficient, but check a few more just in case.
@@ -101,34 +102,15 @@ public final class ReturnYouTubeDislikeFilterPatch extends Filter {
                 return;
             }
             synchronized (lastVideoIds) {
-                if (lastVideoIds.put(videoId, Boolean.TRUE) == null) {
-                    Logger.printDebug(() -> "New Short video id: " + videoId);
-                }
+                if (lastVideoIds.containsKey(videoId)) return;
+                Logger.printDebug(() -> "New Shorts video id: " + videoId);
+
+                final ByteArrayFilterGroup videoIdFilter = new ByteArrayFilterGroup(null, videoId);
+                lastVideoIds.put(videoId, videoIdFilter);
             }
         } catch (Exception ex) {
             Logger.printException(() -> "newPlayerResponseVideoId failure", ex);
         }
-    }
-
-    /**
-     * This could use {@link TrieSearch}, but since the patterns are constantly changing
-     * the overhead of updating the Trie might negate the search performance gain.
-     */
-    private static boolean byteArrayContainsString(@NonNull byte[] array, @NonNull String text) {
-        for (int i = 0, lastArrayStartIndex = array.length - text.length(); i <= lastArrayStartIndex; i++) {
-            boolean found = true;
-            for (int j = 0, textLength = text.length(); j < textLength; j++) {
-                if (array[i + j] != (byte) text.charAt(j)) {
-                    found = false;
-                    break;
-                }
-            }
-            if (found) {
-                return true;
-            }
-        }
-
-        return false;
     }
 
     @Override
@@ -154,9 +136,11 @@ public final class ReturnYouTubeDislikeFilterPatch extends Filter {
     @Nullable
     private String findVideoId(byte[] protobufBufferArray) {
         synchronized (lastVideoIds) {
-            for (String videoId : lastVideoIds.keySet()) {
-                if (byteArrayContainsString(protobufBufferArray, videoId)) {
-                    return videoId;
+            for (Map.Entry<String, ByteArrayFilterGroup> entry : lastVideoIds.entrySet()) {
+                final ByteArrayFilterGroup videoIdFilter = entry.getValue();
+
+                if (videoIdFilter.check(protobufBufferArray).isFiltered()) {
+                    return entry.getKey(); // Return videoId
                 }
             }
 
