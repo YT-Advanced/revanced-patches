@@ -33,8 +33,8 @@ import java.util.concurrent.TimeoutException
  * did use its own client streams.
  */
 class StreamingDataRequest private constructor(
-    videoId: String, playerHeaders: Map<String, String>, visitorId: String,
-    botGuardPoToken: String, droidGuardPoToken: String
+    videoId: String, playerHeaders: Map<String, String>,
+    visitorId: String, botGuardPoToken: String
 ) {
     private val videoId: String
     private val future: Future<ByteBuffer?>
@@ -47,8 +47,7 @@ class StreamingDataRequest private constructor(
                 videoId,
                 playerHeaders,
                 visitorId,
-                botGuardPoToken,
-                droidGuardPoToken
+                botGuardPoToken
             )
         }
     }
@@ -136,8 +135,8 @@ class StreamingDataRequest private constructor(
 
         @JvmStatic
         fun fetchRequest(
-            videoId: String, fetchHeaders: Map<String, String>, visitorId: String,
-            botGuardPoToken: String, droidGuardPoToken: String
+            videoId: String, fetchHeaders: Map<String, String>,
+            visitorId: String, botGuardPoToken: String
         ) {
             // Always fetch, even if there is an existing request for the same video.
             cache[videoId] =
@@ -145,8 +144,7 @@ class StreamingDataRequest private constructor(
                     videoId,
                     fetchHeaders,
                     visitorId,
-                    botGuardPoToken,
-                    droidGuardPoToken
+                    botGuardPoToken
                 )
         }
 
@@ -160,8 +158,11 @@ class StreamingDataRequest private constructor(
         }
 
         private fun send(
-            clientType: AppClient.ClientType, videoId: String, playerHeaders: Map<String, String>,
-            visitorId: String, botGuardPoToken: String, droidGuardPoToken: String
+            clientType: AppClient.ClientType,
+            videoId: String,
+            playerHeaders: Map<String, String>,
+            visitorId: String,
+            botGuardPoToken: String
         ): HttpURLConnection? {
             Objects.requireNonNull(clientType)
             Objects.requireNonNull(videoId)
@@ -207,10 +208,7 @@ class StreamingDataRequest private constructor(
                         botGuardPoToken = botGuardPoToken,
                         visitorId = visitorId
                     )
-                    if (droidGuardPoToken.isNotEmpty()) {
-                        Logger.printDebug { "Original poToken (droidGuardPoToken):\n$droidGuardPoToken" }
-                    }
-                    Logger.printDebug { "Replaced poToken (botGuardPoToken):\n$botGuardPoToken" }
+                    Logger.printDebug { "Set poToken (botGuardPoToken):\n$botGuardPoToken" }
                 } else {
                     requestBody =
                         createApplicationRequestBody(clientType = clientType, videoId = videoId)
@@ -242,8 +240,8 @@ class StreamingDataRequest private constructor(
         }
 
         private fun fetch(
-            videoId: String, playerHeaders: Map<String, String>, visitorId: String,
-            botGuardPoToken: String, droidGuardPoToken: String
+            videoId: String, playerHeaders: Map<String, String>,
+            visitorId: String, botGuardPoToken: String
         ): ByteBuffer? {
             lastSpoofedClientType = null
 
@@ -260,8 +258,7 @@ class StreamingDataRequest private constructor(
                     videoId,
                     playerHeaders,
                     visitorId,
-                    botGuardPoToken,
-                    droidGuardPoToken
+                    botGuardPoToken
                 )?.let { connection ->
                     try {
                         // gzip encoding doesn't response with content length (-1),
