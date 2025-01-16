@@ -14,7 +14,7 @@ import app.revanced.patches.shared.mainactivity.injectOnCreateMethodCall
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.youtube.utils.extension.Constants.UTILS_PATH
 import app.revanced.patches.youtube.utils.extension.sharedExtensionPatch
-import app.revanced.patches.youtube.utils.fix.cairo.cairoSettingsPatch
+import app.revanced.patches.youtube.utils.fix.cairo.cairoFragmentPatch
 import app.revanced.patches.youtube.utils.fix.playbackspeed.playbackSpeedWhilePlayingPatch
 import app.revanced.patches.youtube.utils.fix.splash.darkModeSplashScreenPatch
 import app.revanced.patches.youtube.utils.mainactivity.mainActivityResolvePatch
@@ -122,7 +122,7 @@ val settingsPatch = resourcePatch(
 
     dependsOn(
         settingsBytecodePatch,
-        cairoSettingsPatch,
+        cairoFragmentPatch,
         darkModeSplashScreenPatch,
         playbackSpeedWhilePlayingPatch,
     )
