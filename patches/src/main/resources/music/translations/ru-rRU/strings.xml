@@ -64,18 +64,18 @@
     <string name="revanced_hide_promotion_alert_banner_summary">Скрывает баннер с уведомлением о промо акции.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Выдвижное меню</string>
-    <string name="revanced_enable_compact_dialog_title">Компактный вид окна</string>
-    <string name="revanced_enable_compact_dialog_summary">"Включает компактное всплывающее меню на телефонах.
-
-Известные проблемы:
-• Заставки альбомов во вкладке \"Библиотека\" становятся меньше в виде сетки.
-• Интерфейс \"Автовыключение\" может необычно появляться."</string>
     <string name="revanced_enable_trim_silence_title">Включить обрезание тишины</string>
     <string name="revanced_enable_trim_silence_summary">"Включает переключатель \"Обрезать тишину\" во всплывающем меню скорости воспроизведения.
 
 Информация:
 • Эта функция предназначена для подкастов.
 • Эта функция все еще находится в разработке, поэтому может работать нестабильно."</string>
+    <string name="revanced_enable_compact_dialog_title">Компактный вид окна</string>
+    <string name="revanced_enable_compact_dialog_summary">"Включает компактное всплывающее меню на телефонах.
+
+Известные проблемы:
+• Заставки альбомов во вкладке \"Библиотека\" становятся меньше в виде сетки.
+• Интерфейс \"Автовыключение\" может необычно появляться."</string>
     <string name="revanced_hide_flyout_menu_like_dislike_title">Скрыть кнопки \"Нравится\" и \"Не нравится\"</string>
     <string name="revanced_hide_flyout_menu_3_column_component_title">Скрыть компонент из 3 столбцов</string>
     <string name="revanced_hide_flyout_menu_add_to_queue_title">Скрыть пункт \"Добавить в очередь\"</string>
@@ -125,10 +125,10 @@
     <string name="revanced_change_start_page_entry_home">Главная</string>
     <string name="revanced_change_start_page_entry_library">Библиотека</string>
     <string name="revanced_change_start_page_entry_subscription">Подписки</string>
-    <string name="revanced_disable_auto_captions_title">Отключить автоматические субтитры</string>
-    <string name="revanced_disable_auto_captions_summary">Отключает автоматическое включение субтитров.</string>
     <string name="revanced_disable_dislike_redirection_title">Отключить переключение при \"Не нравится\"</string>
     <string name="revanced_disable_dislike_redirection_summary">Отключает перенаправление на следующий трек при нажатии на кнопку \"Не нравится\".</string>
+    <string name="revanced_disable_auto_captions_title">Отключить автоматические субтитры</string>
+    <string name="revanced_disable_auto_captions_summary">Отключает автоматическое включение субтитров.</string>
     <string name="revanced_enable_landscape_mode_title">Альбомный режим</string>
     <string name="revanced_enable_landscape_mode_summary">Включает альбомный режим при повороте экрана на телефонах.</string>
     <string name="revanced_custom_filter_title">Пользовательский фильтр</string>
@@ -141,24 +141,24 @@
     <string name="revanced_hide_button_shelf_summary">Скрывает ряд кнопок с главной страницы и со вкладки \"Навигатор\".</string>
     <string name="revanced_hide_carousel_shelf_title">Скрыть карусель треков</string>
     <string name="revanced_hide_carousel_shelf_summary">Скрывает карусель треков с главной страницы и со вкладки \"Навигатор\".</string>
-    <string name="revanced_hide_playlist_card_shelf_title">Скрыть полку с заставкой плейлиста</string>
-    <string name="revanced_hide_playlist_card_shelf_summary">Скрывает полку с заставкой плейлиста в ленте.</string>
-    <string name="revanced_hide_samples_shelf_title">Скрыть полку \"Семплы\"</string>
-    <string name="revanced_hide_samples_shelf_summary">Скрывает полку \"Семплы\" в ленте.</string>
     <string name="revanced_hide_cast_button_title">Скрыть кнопку \"Трансляция\"</string>
     <string name="revanced_hide_cast_button_summary">Скрывает кнопку \"Трансляция\".</string>
     <string name="revanced_hide_category_bar_title">Скрыть панель категорий</string>
     <string name="revanced_hide_category_bar_summary">Скрывает панель категорий.</string>
     <string name="revanced_hide_floating_button_title">Скрыть всплывающую кнопку</string>
     <string name="revanced_hide_floating_button_summary">Скрывает всплывающую кнопку в библиотеке.</string>
-    <string name="revanced_hide_tap_to_update_button_title">Скрыть кнопку \"Обновить\"</string>
-    <string name="revanced_hide_tap_to_update_button_summary">Скрывает кнопку \"Обновить\".</string>
     <string name="revanced_hide_history_button_title">Скрыть кнопку \"История\"</string>
     <string name="revanced_hide_history_button_summary">Скрывает кнопку \"История\" на панели инструментов.</string>
     <string name="revanced_hide_notification_button_title">Скрыть кнопку \"Уведомления\"</string>
     <string name="revanced_hide_notification_button_summary">Скрывает кнопку \"Уведомления\" на панели инструментов.</string>
+    <string name="revanced_hide_playlist_card_shelf_title">Скрыть полку с заставкой плейлиста</string>
+    <string name="revanced_hide_playlist_card_shelf_summary">Скрывает полку с заставкой плейлиста в ленте.</string>
+    <string name="revanced_hide_samples_shelf_title">Скрыть полку \"Семплы\"</string>
+    <string name="revanced_hide_samples_shelf_summary">Скрывает полку \"Семплы\" в ленте.</string>
     <string name="revanced_hide_sound_search_button_title">Скрыть кнопку поиска звука</string>
     <string name="revanced_hide_sound_search_button_summary">Скрывает кнопку поиска звука в строке поиска.</string>
+    <string name="revanced_hide_tap_to_update_button_title">Скрыть кнопку \"Обновить\"</string>
+    <string name="revanced_hide_tap_to_update_button_summary">Скрывает кнопку \"Обновить\".</string>
     <string name="revanced_hide_voice_search_button_title">Скрыть кнопку голосового поиска</string>
     <string name="revanced_hide_voice_search_button_summary">Скрывает кнопку голосового поиска в строке поиска.</string>
     <string name="revanced_restore_old_style_library_shelf_title">Восстановить старый стиль вкладки \"Библиотека\"</string>
@@ -196,36 +196,36 @@
     <string name="revanced_hide_navigation_label_summary">Скрывает подписи под кнопками навигации.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Плеер</string>
-    <string name="revanced_disable_mini_player_gesture_title">Отключить жест мини плеера</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Отключает свайп для переключения треков в миниплеере.</string>
-    <string name="revanced_disable_player_gesture_title">Отключить жест плеера</string>
-    <string name="revanced_disable_player_gesture_summary">Отключает свайп для переключения треков в плеере.</string>
-    <string name="revanced_enable_black_player_background_title">Включить черный фон плеера</string>
-    <string name="revanced_enable_black_player_background_summary">Меняет адаптивный цвет фона плеера на черный.</string>
-    <string name="revanced_enable_color_match_player_title">Цветовое соответствие проигрывателей</string>
-    <string name="revanced_enable_color_match_player_summary">Цвет мини-проигрывателя соответствует цвету полноэкранного проигрывателя.</string>
-    <string name="revanced_enable_force_minimized_player_title">Удерживать проигрыватель свёрнутым</string>
-    <string name="revanced_enable_force_minimized_player_summary">Удерживает проигрыватель свёрнутым, даже если играет другой трек.</string>
     <string name="revanced_enable_mini_player_next_button_title">Включить кнопку следующего в миниплеере</string>
     <string name="revanced_enable_mini_player_next_button_summary">Включает кнопку следующего трека в миниплеере.</string>
     <string name="revanced_enable_mini_player_previous_button_title">Включить кнопку предыдущего в миниплеере</string>
     <string name="revanced_enable_mini_player_previous_button_summary">Включает кнопку предыдущего трека в миниплеере.</string>
+    <string name="revanced_enable_color_match_player_title">Цветовое соответствие проигрывателей</string>
+    <string name="revanced_enable_color_match_player_summary">Цвет мини-проигрывателя соответствует цвету полноэкранного проигрывателя.</string>
+    <string name="revanced_enable_black_player_background_title">Включить черный фон плеера</string>
+    <string name="revanced_enable_black_player_background_summary">Меняет адаптивный цвет фона плеера на черный.</string>
+    <string name="revanced_disable_mini_player_gesture_title">Отключить жест мини плеера</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Отключает свайп для переключения треков в миниплеере.</string>
+    <string name="revanced_disable_player_gesture_title">Отключить жест плеера</string>
+    <string name="revanced_disable_player_gesture_summary">Отключает свайп для переключения треков в плеере.</string>
+    <string name="revanced_enable_force_minimized_player_title">Удерживать проигрыватель свёрнутым</string>
+    <string name="revanced_enable_force_minimized_player_summary">Удерживает проигрыватель свёрнутым, даже если играет другой трек.</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Включить жест скрытия миниплеера</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Включает жест вниз для скрытия миниплеера.</string>
     <string name="revanced_enable_zen_mode_title">Режим \"Дзен\"</string>
     <string name="revanced_enable_zen_mode_summary">Меняет оттенок фона проигрывателя видео на светло-серый, чтобы уменьшить нагрузку на глаза.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Включить режим \"Дзен\" в подкастах</string>
     <string name="revanced_enable_zen_mode_podcast_summary">Режим \"Дзен\" также применяется к подкастам.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Скрыть переключатель \"аудио/видео\"</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Скрывает переключатель \"аудио/видео\" в плеере.</string>
     <string name="revanced_hide_comment_channel_guidelines_title">Скрыть правила канала</string>
     <string name="revanced_hide_comment_channel_guidelines_summary">Скрывает правила канала в верхней части комментариев.</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Метка времени и кнопки эмодзи</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Скрывает кнопки метки времени и эмодзи при вводе комментариев.</string>
     <string name="revanced_hide_double_tap_overlay_filter_title">Скрыть фильтр двойного нажатия</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary">Скрывает затемнение, которое появляется при двойном нажатии при перемотке.</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Метка времени и кнопки эмодзи</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Скрывает кнопки метки времени и эмодзи при вводе комментариев.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Скрыть кнопку \"Поделиться\" в полноэкранном режиме</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Скрывает кнопку \"Поделиться\" в полноэкранном проигрывателе.</string>
+    <string name="revanced_hide_audio_video_switch_toggle_title">Скрыть переключатель \"аудио/видео\"</string>
+    <string name="revanced_hide_audio_video_switch_toggle_summary">Скрывает переключатель \"аудио/видео\" в плеере.</string>
     <string name="revanced_remember_repeat_state_title">Запоминать состояние повтора</string>
     <string name="revanced_remember_repeat_state_summary">Запоминает состояние переключателя \"Повтор воспроизведения\".</string>
     <string name="revanced_remember_shuffle_state_title">Запоминать состояние перемешивания</string>
@@ -364,6 +364,20 @@
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Разное</string>
+    <string name="revanced_extended_settings_import_export_title">Восстановить / Извлечь настройки</string>
+    <string name="revanced_extended_settings_import_export_summary">Восстановить или извлечь настройки.</string>
+    <string name="revanced_extended_settings_export_as_file">Извлечь настройки в файл</string>
+    <string name="revanced_extended_settings_import_as_file">Восстановить настройки из файла</string>
+    <string name="revanced_extended_settings_import_export_as_text">Восстановить / Извлечь настройки в виде текста</string>
+    <string name="revanced_extended_settings_export_failed">Не удалось извлечь настройки.</string>
+    <string name="revanced_extended_settings_export_success">Настройки успешно извлечены.</string>
+    <string name="revanced_extended_settings_import">Восстановить</string>
+    <string name="revanced_extended_settings_import_copy">Копировать</string>
+    <string name="revanced_extended_settings_import_failed">Не удалось восстановить: %s.</string>
+    <string name="revanced_extended_settings_import_reset">Настройки сброшены до начальных.</string>
+    <string name="revanced_extended_settings_import_success">Восстановлено %d настройки(ек).</string>
+    <string name="revanced_extended_settings_reset">Сбросить</string>
+    <string name="revanced_share_copy_settings_success">Настройки скопированы в буфер.</string>
     <string name="revanced_bypass_image_region_restrictions_title">Обойти ограничения изображений по региону</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Заменяет заблокированный в некоторых регионах домен, чтобы можно было получать миниатюры плейлистов, аватары каналов и т. д.</string>
     <string name="revanced_change_share_sheet_title">Изменить окно \"Поделиться\"</string>
@@ -393,20 +407,8 @@
 Информация:
 • Последние Android клиенты используют аудио кодек opus по умолчанию.
 • Эта функция подходит только для очень старых клиентов."</string>
-    <string name="gms_core_settings_title">Открыть GmsCore</string>
-    <string name="gms_core_settings_summary">Включите \"Облачные уведомления\" для получения уведомлений.</string>
-    <string name="gms_core_toast_not_installed_message">GmsCore не установлен. Установите его.</string>
-    <string name="gms_core_dialog_title">Требуется действие</string>
-    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"MicroG GmsCore не имеет разрешения на запуск в фоновом режиме.
-
-Следуйте инструкции \"Don't kill my app\" для Вашего телефона и установите MicroG согласно ее.
-
-Это необходимо для работы приложения."</string>
-    <string name="gms_core_dialog_open_website_text">Открыть сайт</string>
-    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Во избежание проблем необходимо отключить оптимизацию батареи для MicroG GmsCore.
-
-Нажмите кнопку \"Продолжить\" и отключите оптимизацию батареи."</string>
-    <string name="gms_core_dialog_continue_text">Продолжить</string>
+    <string name="revanced_sanitize_sharing_links_title">Подчищать ссылки</string>
+    <string name="revanced_sanitize_sharing_links_summary">Убирает параметры отслеживания запросов из адресов при отправке ссылки.</string>
     <string name="revanced_spoof_client_title">Подмена клиента</string>
     <string name="revanced_spoof_client_summary">"Подмена клиента для предотвращения проблем с воспроизведением.
 
@@ -431,22 +433,20 @@
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Показывает клиент, используемый для получения потоковых данных в Статистике для сисадминов.</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
-    <string name="revanced_sanitize_sharing_links_title">Подчищать ссылки</string>
-    <string name="revanced_sanitize_sharing_links_summary">Убирает параметры отслеживания запросов из адресов при отправке ссылки.</string>
     <string name="revanced_default_app_settings_title">Открыть настройки по умолчанию</string>
     <string name="revanced_default_app_settings_summary">Чтобы открыть ссылку на YouTube Music в RVX Music, включите \"Открывать поддерживаемые ссылки\" и включите поддерживаемые веб-адреса.</string>
-    <string name="revanced_extended_settings_import_export_title">Восстановить / Извлечь настройки</string>
-    <string name="revanced_extended_settings_import_export_summary">Восстановить или извлечь настройки.</string>
-    <string name="revanced_extended_settings_export_as_file">Извлечь настройки в файл</string>
-    <string name="revanced_extended_settings_import_as_file">Восстановить настройки из файла</string>
-    <string name="revanced_extended_settings_import_export_as_text">Восстановить / Извлечь настройки в виде текста</string>
-    <string name="revanced_extended_settings_export_failed">Не удалось извлечь настройки.</string>
-    <string name="revanced_extended_settings_export_success">Настройки успешно извлечены.</string>
-    <string name="revanced_extended_settings_import">Восстановить</string>
-    <string name="revanced_extended_settings_import_copy">Копировать</string>
-    <string name="revanced_extended_settings_import_failed">Не удалось восстановить: %s.</string>
-    <string name="revanced_extended_settings_import_reset">Настройки сброшены до начальных.</string>
-    <string name="revanced_extended_settings_import_success">Восстановлено %d настройки(ек).</string>
-    <string name="revanced_extended_settings_reset">Сбросить</string>
-    <string name="revanced_share_copy_settings_success">Настройки скопированы в буфер.</string>
+    <string name="gms_core_settings_title">Открыть GmsCore</string>
+    <string name="gms_core_settings_summary">Включите \"Облачные уведомления\" для получения уведомлений.</string>
+    <string name="gms_core_toast_not_installed_message">GmsCore не установлен. Установите его.</string>
+    <string name="gms_core_dialog_title">Требуется действие</string>
+    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"MicroG GmsCore не имеет разрешения на запуск в фоновом режиме.
+
+Следуйте инструкции \"Don't kill my app\" для Вашего телефона и установите MicroG согласно ее.
+
+Это необходимо для работы приложения."</string>
+    <string name="gms_core_dialog_open_website_text">Открыть сайт</string>
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Во избежание проблем необходимо отключить оптимизацию батареи для MicroG GmsCore.
+
+Нажмите кнопку \"Продолжить\" и отключите оптимизацию батареи."</string>
+    <string name="gms_core_dialog_continue_text">Продолжить</string>
 </resources>

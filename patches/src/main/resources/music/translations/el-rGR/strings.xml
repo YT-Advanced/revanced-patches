@@ -67,18 +67,18 @@
     <string name="revanced_hide_promotion_alert_banner_summary">Απόκρυψη των ετικετών προειδοποίησης προώθησης.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Αναδυόμενο μενού ρυθμίσεων</string>
-    <string name="revanced_enable_compact_dialog_title">Αναδυόμενο μενού μικρότερου στυλ</string>
-    <string name="revanced_enable_compact_dialog_summary">"Χρήση μικρότερου στυλ για το αναδυόμενο μενού.
-
-Περιορισμοί:
-• Τα εξώφυλλα άλμπουμ στην καρτέλα βιβλιοθήκης γίνονται μικρότερα επίσης.
-• Η διεπαφή του χρονομέτρου ύπνου ενδέχεται να φαίνεται ασυνήθιστη."</string>
     <string name="revanced_enable_trim_silence_title">Ενεργοποίηση περικοπής σίγασης</string>
     <string name="revanced_enable_trim_silence_summary">"Ενεργοποίηση της λειτουργίας «Περικοπή σίγασης» στο αναδυόμενο μενού αλλαγής ταχύτητας αναπαραγωγής.
 
 Πληροφορίες:
 • Αυτή η λειτουργία είναι για ηχητικές εκπομπές.
 • Αυτή η λειτουργία είναι ακόμη υπό ανάπτυξη, οπότε ενδέχεται να είναι ασταθής."</string>
+    <string name="revanced_enable_compact_dialog_title">Αναδυόμενο μενού μικρότερου στυλ</string>
+    <string name="revanced_enable_compact_dialog_summary">"Χρήση μικρότερου στυλ για το αναδυόμενο μενού.
+
+Περιορισμοί:
+• Τα εξώφυλλα άλμπουμ στην καρτέλα βιβλιοθήκης γίνονται μικρότερα επίσης.
+• Η διεπαφή του χρονομέτρου ύπνου ενδέχεται να φαίνεται ασυνήθιστη."</string>
     <string name="revanced_hide_flyout_menu_like_dislike_title">Απόκρυψη κουμπιών «Μου αρέσει» και «Δεν μου αρέσει»</string>
     <string name="revanced_hide_flyout_menu_3_column_component_title">Απόκρυψη στοιχείου 3 στηλών</string>
     <string name="revanced_hide_flyout_menu_add_to_queue_title">Απόκρυψη μενού «Προσθήκη στην ουρά»</string>
@@ -128,10 +128,10 @@
     <string name="revanced_change_start_page_entry_home">Αρχική</string>
     <string name="revanced_change_start_page_entry_library">Βιβλιοθήκη</string>
     <string name="revanced_change_start_page_entry_subscription">Εγγραφές</string>
-    <string name="revanced_disable_auto_captions_title">Απενεργοποίηση αυτόματων υπότιτλων</string>
-    <string name="revanced_disable_auto_captions_summary">Απενεργοποίηση της αυτόματης ενεργοποίησης υπότιτλων.</string>
     <string name="revanced_disable_dislike_redirection_title">Απενεργοποίηση ανακατεύθυνσης dislike</string>
     <string name="revanced_disable_dislike_redirection_summary">Απενεργοποίηση της ανακατεύθυνσης στο επόμενο κομμάτι όταν πατάτε το κουμπί «Δεν μου αρέσει».</string>
+    <string name="revanced_disable_auto_captions_title">Απενεργοποίηση αυτόματων υπότιτλων</string>
+    <string name="revanced_disable_auto_captions_summary">Απενεργοποίηση της εξαναγκαστικής ενεργοποίησης αυτόματων υπότιτλων.</string>
     <string name="revanced_enable_landscape_mode_title">Ενεργοποίηση οριζόντιας λειτουργίας</string>
     <string name="revanced_enable_landscape_mode_summary">Ενεργοποίηση της οριζόντιας λειτουργίας με την περιστροφή της οθόνης.</string>
     <string name="revanced_custom_filter_title">Προσαρμοσμένο φίλτρο</string>
@@ -144,27 +144,27 @@
     <string name="revanced_hide_button_shelf_summary">Απόκρυψη της ενότητας κουμπιών στη ροή.</string>
     <string name="revanced_hide_carousel_shelf_title">Απόκρυψη ενότητας καρουζέλ</string>
     <string name="revanced_hide_carousel_shelf_summary">Απόκρυψη ενότητας καρουζέλ στη ροή.</string>
-    <string name="revanced_hide_playlist_card_shelf_title">Απόκρυψη καρτών λίστας αναπαραγωγής</string>
-    <string name="revanced_hide_playlist_card_shelf_summary">Απόκρυψη της ενότητας καρτών λίστας αναπαραγωγής στη ροή.</string>
-    <string name="revanced_hide_samples_shelf_title">Απόκρυψη ενότητας «Δείγματα»</string>
-    <string name="revanced_hide_samples_shelf_summary">Απόκρυψη της ενότητας «Δείγματα» στη ροή.</string>
     <string name="revanced_hide_cast_button_title">Απόκρυψη κουμπιού μετάδοσης</string>
     <string name="revanced_hide_cast_button_summary">Απόκρυψη του κουμπιού μετάδοσης.</string>
     <string name="revanced_hide_category_bar_title">Απόκρυψη γραμμής κατηγοριών</string>
     <string name="revanced_hide_category_bar_summary">Απόκρυψη της γραμμής κατηγοριών.</string>
     <string name="revanced_hide_floating_button_title">Απόκρυψη αιωρούμενου κουμπιού</string>
     <string name="revanced_hide_floating_button_summary">Απόκρυψη του αιωρούμενου κουμπιού στην καρτέλα βιβλιοθήκης.</string>
-    <string name="revanced_hide_tap_to_update_button_title">Απόκρυψη κουμπιού «Πατήστε για ενημέρωση»</string>
-    <string name="revanced_hide_tap_to_update_button_summary">Απόκρυψη του κουμπιού «Πατήστε για ενημέρωση».</string>
     <string name="revanced_hide_history_button_title">Απόκρυψη κουμπιού ιστορικού</string>
     <string name="revanced_hide_history_button_summary">Απόκρυψη του κουμπιού ιστορικού στη γραμμή εργαλείων.</string>
     <string name="revanced_hide_notification_button_title">Απόκρυψη κουμπιού ειδοποιήσεων</string>
     <string name="revanced_hide_notification_button_summary">Απόκρυψη του κουμπιού ειδοποιήσεων στη γραμμή εργαλείων.</string>
+    <string name="revanced_hide_playlist_card_shelf_title">Απόκρυψη καρτών λίστας αναπαραγωγής</string>
+    <string name="revanced_hide_playlist_card_shelf_summary">Απόκρυψη της ενότητας καρτών λίστας αναπαραγωγής στη ροή.</string>
+    <string name="revanced_hide_samples_shelf_title">Απόκρυψη ενότητας «Δείγματα»</string>
+    <string name="revanced_hide_samples_shelf_summary">Απόκρυψη της ενότητας «Δείγματα» στη ροή.</string>
     <string name="revanced_hide_sound_search_button_title">Απόκρυψη κουμπιού ηχητικής αναζήτησης</string>
     <string name="revanced_hide_sound_search_button_summary">Απόκρυψη του κουμπιού ηχητικής αναζήτησης στην γραμμή αναζήτησης.</string>
+    <string name="revanced_hide_tap_to_update_button_title">Απόκρυψη κουμπιού «Πατήστε για ενημέρωση»</string>
+    <string name="revanced_hide_tap_to_update_button_summary">Απόκρυψη του κουμπιού «Πατήστε για ενημέρωση».</string>
     <string name="revanced_hide_voice_search_button_title">Απόκρυψη κουμπιού φωνητικής αναζήτησης</string>
     <string name="revanced_hide_voice_search_button_summary">Απόκρυψη του κουμπιού φωνητικής αναζήτησης στην γραμμή αναζήτησης.</string>
-    <string name="revanced_restore_old_style_library_shelf_title">Ενότητα βιβλιοθήκης παλιού στυλ</string>
+    <string name="revanced_restore_old_style_library_shelf_title">Επαναφορά παλιάς καρτέλας «Βιβλιοθήκη»</string>
     <string name="revanced_restore_old_style_library_shelf_summary">Επιστροφή της ενότητας βιβλιοθήκης στο παλιό στυλ. (Πειραματικό)</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Αφαίρεση παραθύρου ηλικιακού περιορισμού</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Αφαίρεση του παραθύρου προειδοποίησης ηλικιακού περιορισμού.
@@ -199,36 +199,36 @@
     <string name="revanced_hide_navigation_label_summary">Απόκρυψη ονομασιών των κουμπιών στη γραμμή πλοήγησης.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Οθόνη αναπαραγωγής</string>
-    <string name="revanced_disable_mini_player_gesture_title">Απενεργοποίηση χειρονομίας ελαχιστοποιημένης οθόνης αναπαραγωγής</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Απενεργοποίηση της χειρονομίας σάρωσης για αλλαγή κομματιού στην ελαχιστοποιημένη οθόνη αναπαραγωγής.</string>
-    <string name="revanced_disable_player_gesture_title">Απενεργοποίηση χειρονομίας οθόνης αναπαραγωγής</string>
-    <string name="revanced_disable_player_gesture_summary">Απενεργοποίηση της χειρονομίας σάρωσης για αλλαγή κομματιού στην οθόνη αναπαραγωγής.</string>
-    <string name="revanced_enable_black_player_background_title">Μαύρο φόντο οθόνης αναπαραγωγής</string>
-    <string name="revanced_enable_black_player_background_summary">Αλλαγή χρώματος της οθόνης αναπαραγωγής σε μαύρο.</string>
-    <string name="revanced_enable_color_match_player_title">Ταίριασμα χρωμάτων οθόνων αναπαραγωγής</string>
-    <string name="revanced_enable_color_match_player_summary">Να ταιριάζει το χρώμα της ελαχιστοποιημένης οθόνης αναπαραγωγής με αυτό της οθόνης αναπαραγωγής πλήρους οθόνης.</string>
-    <string name="revanced_enable_force_minimized_player_title">Εξαναγκαστική ελαχιστοποίηση οθόνης αναπαραγωγής</string>
-    <string name="revanced_enable_force_minimized_player_summary">Να διατηρείται μόνιμα ελαχιστοποιημένο το πρόγραμμα αναπαραγωγής ακόμη και όταν αναπαράγεται άλλο κομμάτι.</string>
     <string name="revanced_enable_mini_player_next_button_title">Κουμπί επόμενου βίντεο στον miniplayer</string>
     <string name="revanced_enable_mini_player_next_button_summary">Ενεργοποίηση του κουμπιού επόμενου βίντεο στην ελαχιστοποιημένη οθόνη αναπαραγωγής.</string>
     <string name="revanced_enable_mini_player_previous_button_title">Κουμπί προηγούμενου βίντεο στον miniplayer</string>
     <string name="revanced_enable_mini_player_previous_button_summary">Ενεργοποίηση του κουμπιού προηγούμενου βίντεο στην ελαχιστοποιημένη οθόνη αναπαραγωγής.</string>
+    <string name="revanced_enable_color_match_player_title">Αλλαγή χρώματος ελαχιστοποιημένης οθόνης αναπαραγωγής</string>
+    <string name="revanced_enable_color_match_player_summary">Αλλαγή του χρώματος της ελαχιστοποιημένης οθόνης αναπαραγωγής με αυτό της οθόνης αναπαραγωγής πλήρους οθόνης.</string>
+    <string name="revanced_enable_black_player_background_title">Αλλαγή χρώματος φόντου οθόνης αναπαραγωγής</string>
+    <string name="revanced_enable_black_player_background_summary">Αλλαγή χρώματος της οθόνης αναπαραγωγής σε μαύρο.</string>
+    <string name="revanced_disable_mini_player_gesture_title">Απενεργοποίηση χειρονομίας ελαχιστοποιημένης οθόνης αναπαραγωγής</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Απενεργοποίηση της χειρονομίας σάρωσης για αλλαγή κομματιού στην ελαχιστοποιημένη οθόνη αναπαραγωγής.</string>
+    <string name="revanced_disable_player_gesture_title">Απενεργοποίηση χειρονομίας οθόνης αναπαραγωγής</string>
+    <string name="revanced_disable_player_gesture_summary">Απενεργοποίηση της χειρονομίας σάρωσης για αλλαγή κομματιού στην οθόνη αναπαραγωγής.</string>
+    <string name="revanced_enable_force_minimized_player_title">Εξαναγκαστική ελαχιστοποίηση οθόνης αναπαραγωγής</string>
+    <string name="revanced_enable_force_minimized_player_summary">Να διατηρείται μόνιμα ελαχιστοποιημένο το πρόγραμμα αναπαραγωγής ακόμη και όταν αναπαράγεται άλλο κομμάτι.</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Χειρονομία απόρριψης ελαχιστοποιημένης οθόνης αναπαραγωγής</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Ενεργοποίηση χειρονομίας σάρωσης προς τα κάτω για απόρριψη της ελαχιστοποιημένης οθόνης αναπαραγωγής.</string>
     <string name="revanced_enable_zen_mode_title">Ενεργοποίηση λειτουργίας zen</string>
-    <string name="revanced_enable_zen_mode_summary">Προσθήκη μιας γκρι απόχρωσης στο παρασκήνιο της οθόνης αναπαραγωγής για να μειωθεί η καταπόνηση των ματιών.</string>
+    <string name="revanced_enable_zen_mode_summary">Ενεργοποίηση μιας γκρι απόχρωσης στο παρασκήνιο της οθόνης αναπαραγωγής για να μειωθεί η καταπόνηση των ματιών.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Λειτουργία zen σε ηχητικές εκπομπές</string>
-    <string name="revanced_enable_zen_mode_podcast_summary">Η λειτουργία Zen εφαρμόζεται σε ηχητικές εκπομπές επίσης.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Απόκρυψη εναλλαγής ήχου-βίντεο</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Απόκρυψη της εναλλαγής ήχου-βίντεο στην οθόνη αναπαραγωγής.</string>
+    <string name="revanced_enable_zen_mode_podcast_summary">Ενεργοποίηση λειτουργίας Zen και σε ηχητικές εκπομπές.</string>
     <string name="revanced_hide_comment_channel_guidelines_title">Απόκρυψη οδηγιών κοινότητας</string>
     <string name="revanced_hide_comment_channel_guidelines_summary">Απόκρυψη των οδηγιών κοινότητας στην κορυφή της ενότητας σχολίων.</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Απόκρυψη κουμπιών χρονοσήμανσης &amp; emoji</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Απόκρυψη των κουμπιών χρονοσήμανσης και επιλογής emoji κατά την πληκτρολόγηση σχολίου.</string>
     <string name="revanced_hide_double_tap_overlay_filter_title">Απόκρυψη φόντου διπλού πατήματος της οθόνης αναπαραγωγής</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary">Απόκρυψη του σκοτεινού φόντου που εμφανίζεται στην οθόνη αναπαραγωγής όταν γίνεται διπλό πάτημα για αναζήτηση.</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Απόκρυψη κουμπιών χρονοσήμανσης &amp; emoji</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Απόκρυψη των κουμπιών χρονοσήμανσης και επιλογής emoji κατά την πληκτρολόγηση σχολίου.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Απόκρυψη κουμπιού κοινοποίησης στη λειτουργία πλήρους οθόνης</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Απόκρυψη του κουμπιού κοινοποίησης στην οθόνη αναπαραγωγής πλήρους οθόνης.</string>
+    <string name="revanced_hide_audio_video_switch_toggle_title">Απόκρυψη εναλλαγής ήχου / βίντεο</string>
+    <string name="revanced_hide_audio_video_switch_toggle_summary">Απόκρυψη της εναλλαγής ήχου / βίντεο στην οθόνη αναπαραγωγής.</string>
     <string name="revanced_remember_repeat_state_title">Απομνημόνευση κατάστασης επανάληψης</string>
     <string name="revanced_remember_repeat_state_summary">Απομνημόνευση της κατάστασης του κουμπιού επανάληψης.</string>
     <string name="revanced_remember_shuffle_state_title">Απομνημόνευση κατάστασης ανακατέματος</string>
@@ -367,6 +367,20 @@
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Διάφορα</string>
+    <string name="revanced_extended_settings_import_export_title">Εισαγωγή / Εξαγωγή</string>
+    <string name="revanced_extended_settings_import_export_summary">Εισαγωγή ή εξαγωγή των ρυθμίσεών σας.</string>
+    <string name="revanced_extended_settings_export_as_file">Εξαγωγή ρυθμίσεων σε αρχείο</string>
+    <string name="revanced_extended_settings_import_as_file">Εισαγωγή ρυθμίσεων από αρχείο</string>
+    <string name="revanced_extended_settings_import_export_as_text">Εισαγωγή / Εξαγωγή ρυθμίσεων ως κείμενο</string>
+    <string name="revanced_extended_settings_export_failed">Αποτυχία εξαγωγής ρυθμίσεων.</string>
+    <string name="revanced_extended_settings_export_success">Οι ρυθμίσεις εξήχθησαν με επιτυχία.</string>
+    <string name="revanced_extended_settings_import">Εισαγωγή</string>
+    <string name="revanced_extended_settings_import_copy">Αντιγραφή</string>
+    <string name="revanced_extended_settings_import_failed">Η εισαγωγή απέτυχε: %s.</string>
+    <string name="revanced_extended_settings_import_reset">Οι ρυθμίσεις επαναφέρθηκαν στις προεπιλογές.</string>
+    <string name="revanced_extended_settings_import_success">Έγινε εισαγωγή %d ρυθμίσεων.</string>
+    <string name="revanced_extended_settings_reset">Επαναφορά</string>
+    <string name="revanced_share_copy_settings_success">Οι ρυθμίσεις αντιγράφηκαν στο πρόχειρο.</string>
     <string name="revanced_bypass_image_region_restrictions_title">Παράκαμψη μπλοκαρίσματος φόρτωσης εικόνων</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Αντικατάσταση του domain για την φόρτωση εικόνων όπου είναι μπλοκαρισμένες σε ορισμένες περιοχές ώστε να μπορούν να ληφθούν μικρογραφίες βίντεο, εικόνες δημοσιεύσεων, κλπ.</string>
     <string name="revanced_change_share_sheet_title">Αλλαγή μενού κοινοποίησης</string>
@@ -394,22 +408,8 @@
     <string name="revanced_enable_opus_codec_summary">"Ενεργοποίηση του κωδικοποιητή OPUS αν η ανταπόκριση του προγράμματος αναπαραγωγής τον περιλαμβάνει.
 
 Πληροφορία: Οι τελευταίες εκδόσεις Android χρησιμοποιούν τον κωδικοποιητή opus από προεπιλογή, οπότε αυτή η ρύθμιση ισχύει μόνο για χρήστες που χρησιμοποιούν τη λειτουργία παραποίησης έκδοσης εφαρμογής, σε πολύ παλιές εκδόσεις."</string>
-    <string name="gms_core_settings_title">Άνοιγμα του MicroG GmsCore</string>
-    <string name="gms_core_settings_summary">Ενεργοποιήστε τις ρυθμίσεις cloud messaging για να λαμβάνετε ειδοποιήσεις.</string>
-    <string name="gms_core_toast_not_installed_message">Το MicroG GmsCore δεν είναι εγκατεστημένο. Εγκαταστήστε το.</string>
-    <string name="gms_core_dialog_title">Απαιτείται ενέργεια</string>
-    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"Το MicroG GmsCore δεν έχει άδεια να τρέχει στο παρασκήνιο.
-
-Ακολουθήστε τον οδηγό \"Don't kill my app!\" για το τηλέφωνό σας και εφαρμόστε τις οδηγίες στο MicroG.
-
-Αυτό απαιτείται για να λειτουργήσει η εφαρμογή."</string>
-    <string name="gms_core_dialog_open_website_text">Άνοιγμα ιστοσελίδας</string>
-    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Οι βελτιστοποιήσεις μπαταρίας πρέπει να απενεργοποιηθούν για το MicroG GmsCore ώστε να αποφευχθούν προβλήματα.
-
-Η απενεργοποίηση των βελτιστοποιήσεων μπαταρίας για το MicroG δεν θα επηρεάσει αρνητικά την κατανάλωση ενέργειας.
-
-Πατήστε το κουμπί «Συνέχεια» και επιτρέψτε τις αλλαγές βελτιστοποίησης."</string>
-    <string name="gms_core_dialog_continue_text">Συνέχεια</string>
+    <string name="revanced_sanitize_sharing_links_title">Καθαρισμός συνδέσμων κοινοποίησης</string>
+    <string name="revanced_sanitize_sharing_links_summary">Αφαίρεση των παραμέτρων παρακολούθησης από τις διευθύνσεις URL κατά την κοινοποίηση συνδέσμων.</string>
     <string name="revanced_spoof_client_title">Παραποίηση προγράμματος πελάτη</string>
     <string name="revanced_spoof_client_summary">"Παραποίηση του προγράμματος πελάτη για την αποφυγή προβλημάτων αναπαραγωγής.
 
@@ -431,22 +431,22 @@
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Εμφάνιση του προγράμματος πελάτη που χρησιμοποιείται για τη λήψη δεδομένων ροής στο μενού «Στατιστικά για σπασίκλες».</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
-    <string name="revanced_sanitize_sharing_links_title">Καθαρισμός συνδέσμων κοινοποίησης</string>
-    <string name="revanced_sanitize_sharing_links_summary">Αφαίρεση των παραμέτρων παρακολούθησης από τις διευθύνσεις URL κατά την κοινοποίηση συνδέσμων.</string>
     <string name="revanced_default_app_settings_title">Άνοιγμα ρυθμίσεων προεπιλεγμένων εφαρμογών</string>
     <string name="revanced_default_app_settings_summary">Για να ανοίγουν οι συνδέσμοι YouTube Music στο RVX Music, ενεργοποιήστε το «Άνοιγμα υποστηριζόμενων συνδέσμων» και τις υποστηριζόμενες διευθύνσεις ιστού.</string>
-    <string name="revanced_extended_settings_import_export_title">Εισαγωγή / Εξαγωγή</string>
-    <string name="revanced_extended_settings_import_export_summary">Εισαγωγή ή εξαγωγή των ρυθμίσεών σας.</string>
-    <string name="revanced_extended_settings_export_as_file">Εξαγωγή ρυθμίσεων σε αρχείο</string>
-    <string name="revanced_extended_settings_import_as_file">Εισαγωγή ρυθμίσεων από αρχείο</string>
-    <string name="revanced_extended_settings_import_export_as_text">Εισαγωγή / Εξαγωγή ρυθμίσεων ως κείμενο</string>
-    <string name="revanced_extended_settings_export_failed">Αποτυχία εξαγωγής ρυθμίσεων.</string>
-    <string name="revanced_extended_settings_export_success">Οι ρυθμίσεις εξήχθησαν με επιτυχία.</string>
-    <string name="revanced_extended_settings_import">Εισαγωγή</string>
-    <string name="revanced_extended_settings_import_copy">Αντιγραφή</string>
-    <string name="revanced_extended_settings_import_failed">Η εισαγωγή απέτυχε: %s.</string>
-    <string name="revanced_extended_settings_import_reset">Οι ρυθμίσεις επαναφέρθηκαν στις προεπιλογές.</string>
-    <string name="revanced_extended_settings_import_success">Έγινε εισαγωγή %d ρυθμίσεων.</string>
-    <string name="revanced_extended_settings_reset">Επαναφορά</string>
-    <string name="revanced_share_copy_settings_success">Οι ρυθμίσεις αντιγράφηκαν στο πρόχειρο.</string>
+    <string name="gms_core_settings_title">Άνοιγμα του MicroG GmsCore</string>
+    <string name="gms_core_settings_summary">Ενεργοποιήστε τις ρυθμίσεις cloud messaging για να λαμβάνετε ειδοποιήσεις.</string>
+    <string name="gms_core_toast_not_installed_message">Το MicroG GmsCore δεν είναι εγκατεστημένο. Εγκαταστήστε το.</string>
+    <string name="gms_core_dialog_title">Απαιτείται ενέργεια</string>
+    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"Το MicroG GmsCore δεν έχει άδεια να τρέχει στο παρασκήνιο.
+
+Ακολουθήστε τον οδηγό \"Don't kill my app!\" για το τηλέφωνό σας και εφαρμόστε τις οδηγίες στο MicroG.
+
+Αυτό απαιτείται για να λειτουργήσει η εφαρμογή."</string>
+    <string name="gms_core_dialog_open_website_text">Άνοιγμα ιστοσελίδας</string>
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Οι βελτιστοποιήσεις μπαταρίας πρέπει να απενεργοποιηθούν για το MicroG GmsCore ώστε να αποφευχθούν προβλήματα.
+
+Η απενεργοποίηση των βελτιστοποιήσεων μπαταρίας για το MicroG δεν θα επηρεάσει αρνητικά την κατανάλωση ενέργειας.
+
+Πατήστε το κουμπί «Συνέχεια» και επιτρέψτε τις αλλαγές βελτιστοποίησης."</string>
+    <string name="gms_core_dialog_continue_text">Συνέχεια</string>
 </resources>

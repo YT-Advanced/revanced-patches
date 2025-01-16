@@ -67,18 +67,18 @@
     <string name="revanced_hide_promotion_alert_banner_summary">프로모션 알림 배너를 숨깁니다.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">메뉴 구성요소</string>
-    <string name="revanced_enable_compact_dialog_title">소형 다이얼로그 활성화</string>
-    <string name="revanced_enable_compact_dialog_summary">"휴대폰에서 소형 메뉴 구성요소를 활성화합니다.
-
-알려진 문제점:
-• 보관함 탭에서 앨범 아트가 그리드로 구성될 때 작아집니다.
-• 취침 타이머 레이아웃이 비정상적으로 보일 수 있습니다."</string>
     <string name="revanced_enable_trim_silence_title">무음 건너뛰기 스위치 추가</string>
     <string name="revanced_enable_trim_silence_summary">"재생 속도 메뉴 구성요소에 '무음 건너뛰기' 스위치를 추가합니다.
 
 알림:
 • 팟캐스트 기능입니다.
 • 이 기능은 아직 개발 중이므로 불안정할 수 있습니다."</string>
+    <string name="revanced_enable_compact_dialog_title">소형 다이얼로그 활성화</string>
+    <string name="revanced_enable_compact_dialog_summary">"휴대폰에서 소형 메뉴 구성요소를 활성화합니다.
+
+알려진 문제점:
+• 보관함 탭에서 앨범 아트가 그리드로 구성될 때 작아집니다.
+• 취침 타이머 레이아웃이 비정상적으로 보일 수 있습니다."</string>
     <string name="revanced_hide_flyout_menu_like_dislike_title">좋아요 &amp; 싫어요 버튼 제거</string>
     <string name="revanced_hide_flyout_menu_3_column_component_title">3-열 구성요소 제거</string>
     <string name="revanced_hide_flyout_menu_add_to_queue_title">현재 재생목록에 추가 메뉴 제거</string>
@@ -128,10 +128,10 @@
     <string name="revanced_change_start_page_entry_home">홈</string>
     <string name="revanced_change_start_page_entry_library">보관함</string>
     <string name="revanced_change_start_page_entry_subscription">구독</string>
-    <string name="revanced_disable_auto_captions_title">자동 자막 비활성화</string>
-    <string name="revanced_disable_auto_captions_summary">자막이 자동으로 활성화되지 않도록 설정합니다.</string>
     <string name="revanced_disable_dislike_redirection_title">싫어요 리다이렉션 비활성화</string>
     <string name="revanced_disable_dislike_redirection_summary">\'싫어요 버튼을 누르면 다음 트랙으로 리다이렉션\'을 비활성화합니다.</string>
+    <string name="revanced_disable_auto_captions_title">자동 자막 비활성화</string>
+    <string name="revanced_disable_auto_captions_summary">자막이 자동으로 활성화되지 않도록 설정합니다.</string>
     <string name="revanced_enable_landscape_mode_title">가로 모드 활성화</string>
     <string name="revanced_enable_landscape_mode_summary">앱을 가로로 회전할 수 있도록 합니다.</string>
     <string name="revanced_custom_filter_title">사용자 정의 필터 활성화</string>
@@ -144,24 +144,24 @@
     <string name="revanced_hide_button_shelf_summary">피드에서 버튼형 선반을 숨깁니다.</string>
     <string name="revanced_hide_carousel_shelf_title">좌우 슬라이드형 선반 제거</string>
     <string name="revanced_hide_carousel_shelf_summary">피드에서 좌우 슬라이드형 선반을 숨깁니다.</string>
-    <string name="revanced_hide_playlist_card_shelf_title">재생목록 카드 선반 제거</string>
-    <string name="revanced_hide_playlist_card_shelf_summary">피드에서 재생목록 카드 선반을 숨깁니다.</string>
-    <string name="revanced_hide_samples_shelf_title">샘플 선반 제거</string>
-    <string name="revanced_hide_samples_shelf_summary">피드에서 샘플 선반을 숨깁니다.</string>
     <string name="revanced_hide_cast_button_title">크롬캐스트 버튼 제거</string>
     <string name="revanced_hide_cast_button_summary">크롬캐스트 버튼을 숨깁니다.</string>
     <string name="revanced_hide_category_bar_title">카테고리 바 제거</string>
     <string name="revanced_hide_category_bar_summary">카테고리 바를 숨깁니다.</string>
     <string name="revanced_hide_floating_button_title">플로팅 버튼 제거</string>
     <string name="revanced_hide_floating_button_summary">보관함에서 플로팅 버튼을 숨깁니다.</string>
-    <string name="revanced_hide_tap_to_update_button_title">\'탭하여 업데이트\' 버튼 제거</string>
-    <string name="revanced_hide_tap_to_update_button_summary">\'탭하여 업데이트\' 버튼을 숨깁니다.</string>
     <string name="revanced_hide_history_button_title">최근 감상 기록 버튼 제거</string>
     <string name="revanced_hide_history_button_summary">툴바에서 최근 감상 기록 버튼을 숨깁니다.</string>
     <string name="revanced_hide_notification_button_title">알림 버튼 제거</string>
     <string name="revanced_hide_notification_button_summary">툴바에서 알림 버튼을 숨깁니다.</string>
+    <string name="revanced_hide_playlist_card_shelf_title">재생목록 카드 선반 제거</string>
+    <string name="revanced_hide_playlist_card_shelf_summary">피드에서 재생목록 카드 선반을 숨깁니다.</string>
+    <string name="revanced_hide_samples_shelf_title">샘플 선반 제거</string>
+    <string name="revanced_hide_samples_shelf_summary">피드에서 샘플 선반을 숨깁니다.</string>
     <string name="revanced_hide_sound_search_button_title">노래 검색 버튼 제거</string>
     <string name="revanced_hide_sound_search_button_summary">툴바에서 노래 검색 버튼을 숨깁니다.</string>
+    <string name="revanced_hide_tap_to_update_button_title">\'탭하여 업데이트\' 버튼 제거</string>
+    <string name="revanced_hide_tap_to_update_button_summary">\'탭하여 업데이트\' 버튼을 숨깁니다.</string>
     <string name="revanced_hide_voice_search_button_title">음성 검색 버튼 제거</string>
     <string name="revanced_hide_voice_search_button_summary">툴바에서 음성 검색 버튼을 숨깁니다.</string>
     <string name="revanced_restore_old_style_library_shelf_title">이전 보관함 선반으로 복원</string>
@@ -197,39 +197,39 @@
     <string name="revanced_hide_navigation_bar_title">하단바 제거</string>
     <string name="revanced_hide_navigation_bar_summary">하단바를 숨깁니다.</string>
     <string name="revanced_hide_navigation_label_title">하단바 버튼 라벨 제거</string>
-    <string name="revanced_hide_navigation_label_summary">하단바에서 버튼 라벨을 숨깁니다.</string>
+    <string name="revanced_hide_navigation_label_summary">하단바 버튼에서 라벨을 숨깁니다.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">플레이어</string>
-    <string name="revanced_disable_mini_player_gesture_title">미니 플레이어 제스처 비활성화</string>
-    <string name="revanced_disable_mini_player_gesture_summary">미니 플레이어에서 \'스와이프 제스처로 트랙 변경\'을 비활성화합니다.</string>
-    <string name="revanced_disable_player_gesture_title">플레이어 제스처 비활성화</string>
-    <string name="revanced_disable_player_gesture_summary">플레이어에서 \'스와이프 제스처로 트랙 변경\'을 비활성화합니다.</string>
-    <string name="revanced_enable_black_player_background_title">검정 플레이어 배경 활성화</string>
-    <string name="revanced_enable_black_player_background_summary">플레이어 배경 색상을 검정으로 설정합니다.</string>
-    <string name="revanced_enable_color_match_player_title">색상 일치 플레이어 활성화</string>
-    <string name="revanced_enable_color_match_player_summary">최소화 상태의 플레이어와 전체 화면 플레이어의 색상을 통일시킵니다.</string>
-    <string name="revanced_enable_force_minimized_player_title">플레이어를 항상 최소화 상태로 유지</string>
-    <string name="revanced_enable_force_minimized_player_summary">다른 트랙이 재생되더라도 플레이어를 항상 최소화 상태로 유지합니다.</string>
     <string name="revanced_enable_mini_player_next_button_title">미니 플레이어에서 다음 버튼 활성화</string>
     <string name="revanced_enable_mini_player_next_button_summary">미니 플레이어에서 다음 버튼을 활성화합니다.</string>
     <string name="revanced_enable_mini_player_previous_button_title">미니 플레이어에서 이전 버튼 활성화</string>
     <string name="revanced_enable_mini_player_previous_button_summary">미니 플레이어에서 이전 버튼을 활성화합니다.</string>
+    <string name="revanced_enable_color_match_player_title">미니 플레이어 색상 변경</string>
+    <string name="revanced_enable_color_match_player_summary">미니 플레이어 색상을 전체 화면 플레이어 색상으로 변경합니다.</string>
+    <string name="revanced_enable_black_player_background_title">검정 플레이어 배경 활성화</string>
+    <string name="revanced_enable_black_player_background_summary">플레이어 배경 색상을 검정으로 설정합니다.</string>
+    <string name="revanced_disable_mini_player_gesture_title">미니 플레이어 제스처 비활성화</string>
+    <string name="revanced_disable_mini_player_gesture_summary">미니 플레이어에서 \'스와이프 제스처로 트랙 변경\'을 비활성화합니다.</string>
+    <string name="revanced_disable_player_gesture_title">플레이어 제스처 비활성화</string>
+    <string name="revanced_disable_player_gesture_summary">플레이어에서 \'스와이프 제스처로 트랙 변경\'을 비활성화합니다.</string>
+    <string name="revanced_enable_force_minimized_player_title">미니 플레이어 강제 활성화</string>
+    <string name="revanced_enable_force_minimized_player_summary">트랙이 변경되더라도 미니 플레이어로 강제 활성화합니다.</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_title">스와이프하여 미니 플레이어 닫기 활성화</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">아래로 스와이프하여 미니 플레이어 닫기를 활성화합니다.</string>
     <string name="revanced_enable_zen_mode_title">집중 모드 활성화</string>
     <string name="revanced_enable_zen_mode_summary">동영상 플레이어의 색상을 회색조로 설정해 눈의 피로를 줄입니다.</string>
     <string name="revanced_enable_zen_mode_podcast_title">팟캐스트에서 집중 모드 활성화</string>
     <string name="revanced_enable_zen_mode_podcast_summary">팟캐스트에서 집중 모드를 활성화합니다.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">\'노래↔동영상\' 토글 제거</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">플레이어에서 \'노래↔동영상\' 토글을 숨깁니다.</string>
     <string name="revanced_hide_comment_channel_guidelines_title">커뮤니티 가이드라인 제거</string>
     <string name="revanced_hide_comment_channel_guidelines_summary">댓글 섹션 상단에서 커뮤니티 가이드라인을 숨깁니다.</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">타임스탬프, 이모지 버튼 제거</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">댓글을 입력할 때, 타임스탬프 및 이모지 버튼을 숨깁니다.</string>
     <string name="revanced_hide_double_tap_overlay_filter_title">두 번 누르기 오버레이 필터</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary">두 번 눌러서 탐색할 때 표시되는 어두운 오버레이를 숨깁니다.</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">타임스탬프 &amp; 이모지 버튼 제거</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">댓글을 입력할 때, 타임스탬프 및 이모지 버튼을 숨깁니다.</string>
     <string name="revanced_hide_fullscreen_share_button_title">전체 화면에서 공유 버튼 제거</string>
     <string name="revanced_hide_fullscreen_share_button_summary">전체 화면에서 공유 버튼을 숨깁니다.</string>
+    <string name="revanced_hide_audio_video_switch_toggle_title">\'노래↔동영상\' 토글 제거</string>
+    <string name="revanced_hide_audio_video_switch_toggle_summary">플레이어에서 \'노래↔동영상\' 토글을 숨깁니다.</string>
     <string name="revanced_remember_repeat_state_title">반복 상태 저장</string>
     <string name="revanced_remember_repeat_state_summary">반복 재생 토글 상태를 저장합니다.</string>
     <string name="revanced_remember_shuffle_state_title">셔플 상태 저장</string>
@@ -368,6 +368,20 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">기타</string>
+    <string name="revanced_extended_settings_import_export_title">설정 가져오기 / 내보내기</string>
+    <string name="revanced_extended_settings_import_export_summary">설정을 가져오거나 내보낼 수 있습니다.</string>
+    <string name="revanced_extended_settings_export_as_file">파일로 설정 내보내기</string>
+    <string name="revanced_extended_settings_import_as_file">파일에서 설정 가져오기</string>
+    <string name="revanced_extended_settings_import_export_as_text">텍스트로 설정 가져오기 / 내보내기</string>
+    <string name="revanced_extended_settings_export_failed">설정을 내보내는 데 실패하였습니다.</string>
+    <string name="revanced_extended_settings_export_success">설정을 성공적으로 내보냈습니다.</string>
+    <string name="revanced_extended_settings_import">가져오기</string>
+    <string name="revanced_extended_settings_import_copy">복사하기</string>
+    <string name="revanced_extended_settings_import_failed">가져오기를 실패하였습니다: %s</string>
+    <string name="revanced_extended_settings_import_reset">설정을 기본값으로 초기화합니다.</string>
+    <string name="revanced_extended_settings_import_success">%d 설정을 가져왔습니다.</string>
+    <string name="revanced_extended_settings_reset">초기화</string>
+    <string name="revanced_share_copy_settings_success">설정을 클립보드에 복사하였습니다.</string>
     <string name="revanced_bypass_image_region_restrictions_title">이미지 표시 제한 국가 우회</string>
     <string name="revanced_bypass_image_region_restrictions_summary">이미지 도메인을 변경하여 일부 국가에서 차단된 재생목록 썸네일, 채널 프로필 사진, 커뮤니티 게시물 이미지 등을 수신할 수 있습니다.</string>
     <string name="revanced_change_share_sheet_title">공유 시트 변경</string>
@@ -397,20 +411,8 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
 알림:
 • 최신 YT Music 클라이언트는 기본적으로 OPUS 코덱을 사용합니다.
 • 이 설정은 아주 오래된 클라이언트 사용자에게만 유효합니다."</string>
-    <string name="gms_core_settings_title">GmsCore 열기</string>
-    <string name="gms_core_settings_summary">알림 수신을 위한 클라우드 메시징 설정을 할 수 있습니다.</string>
-    <string name="gms_core_toast_not_installed_message">GmsCore가 설치되어 있지 않습니다. 설치하세요.</string>
-    <string name="gms_core_dialog_title">필수 조치</string>
-    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore에 백그라운드에서 실행할 수 있는 권한이 없습니다.
-
-이 기기에 대한 \"Don't kill my app\" 가이드를 읽어보고, GmsCore 설치 지침을 적용하세요.
-
-앱을 실행하려면 이 과정이 필요합니다."</string>
-    <string name="gms_core_dialog_open_website_text">웹사이트 열기</string>
-    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"GmsCore를 배터리 최적화 목록에서 제외하여 앱 문제를 방지할 수 있습니다.
-
-배터리 최적화 목록에서 제외하려면 '계속하기' 버튼을 누르세요."</string>
-    <string name="gms_core_dialog_continue_text">계속하기</string>
+    <string name="revanced_sanitize_sharing_links_title">추적 쿼리를 제거한 링크 공유</string>
+    <string name="revanced_sanitize_sharing_links_summary">링크를 공유할 때, URL에서 추적 쿼리 매개변수를 제거합니다.</string>
     <string name="revanced_spoof_client_title">클라이언트 변경</string>
     <string name="revanced_spoof_client_summary">"클라이언트를 변경하여 재생 문제를 방지할 수 있습니다.
 
@@ -432,22 +434,20 @@ API Key를 발급받는 방법을 보려면 여기를 누르세요."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">\'스트리밍 데이터를 가져오는 데 사용되는 클라이언트\'가 동영상 통계에서 표시됩니다.</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
-    <string name="revanced_sanitize_sharing_links_title">추적 쿼리를 제거한 링크 공유</string>
-    <string name="revanced_sanitize_sharing_links_summary">링크를 공유할 때, URL에서 추적 쿼리 매개변수를 제거합니다.</string>
     <string name="revanced_default_app_settings_title">기본 앱 설정 열기</string>
     <string name="revanced_default_app_settings_summary">YT Music 링크를 RVX Music으로 열려면 \'지원되는 링크 열기\'를 활성화하고 지원되는 링크를 추가하세요. 링크 추가가 잠겨있다면 순정 YT Music 앱 정보 → \'기본적으로 열기\'에서 \'지원되는 링크 열기\'를 비활성화한 후에 추가할 수 있습니다.</string>
-    <string name="revanced_extended_settings_import_export_title">설정 가져오기 / 내보내기</string>
-    <string name="revanced_extended_settings_import_export_summary">설정을 가져오거나 내보낼 수 있습니다.</string>
-    <string name="revanced_extended_settings_export_as_file">파일로 설정 내보내기</string>
-    <string name="revanced_extended_settings_import_as_file">파일에서 설정 가져오기</string>
-    <string name="revanced_extended_settings_import_export_as_text">텍스트로 설정 가져오기 / 내보내기</string>
-    <string name="revanced_extended_settings_export_failed">설정을 내보내는 데 실패하였습니다.</string>
-    <string name="revanced_extended_settings_export_success">설정을 성공적으로 내보냈습니다.</string>
-    <string name="revanced_extended_settings_import">가져오기</string>
-    <string name="revanced_extended_settings_import_copy">복사하기</string>
-    <string name="revanced_extended_settings_import_failed">가져오기를 실패하였습니다: %s</string>
-    <string name="revanced_extended_settings_import_reset">설정을 기본값으로 초기화합니다.</string>
-    <string name="revanced_extended_settings_import_success">%d 설정을 가져왔습니다.</string>
-    <string name="revanced_extended_settings_reset">초기화</string>
-    <string name="revanced_share_copy_settings_success">설정을 클립보드에 복사하였습니다.</string>
+    <string name="gms_core_settings_title">GmsCore 설정 열기</string>
+    <string name="gms_core_settings_summary">알림 수신을 위한 클라우드 메시징 설정을 할 수 있습니다.</string>
+    <string name="gms_core_toast_not_installed_message">GmsCore가 설치되어 있지 않습니다. 설치하세요.</string>
+    <string name="gms_core_dialog_title">필수 조치</string>
+    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore에 백그라운드에서 실행할 수 있는 권한이 없습니다.
+
+이 기기에 대한 \"Don't kill my app\" 가이드를 읽어보고, GmsCore 설치 지침을 적용하세요.
+
+앱을 실행하려면 이 과정이 필요합니다."</string>
+    <string name="gms_core_dialog_open_website_text">웹사이트 열기</string>
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"GmsCore를 배터리 최적화 목록에서 제외하여 앱 문제를 방지할 수 있습니다.
+
+배터리 최적화 목록에서 제외하려면 '계속하기' 버튼을 누르세요."</string>
+    <string name="gms_core_dialog_continue_text">계속하기</string>
 </resources>

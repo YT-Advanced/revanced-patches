@@ -61,18 +61,18 @@ Download %2$s dari website."</string>
     <string name="revanced_hide_premium_renewal_summary">Menyembunyikan banner pembaruan premium.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Menu flyout</string>
-    <string name="revanced_enable_compact_dialog_title">Aktifkan dialog ringkas</string>
-    <string name="revanced_enable_compact_dialog_summary">"Aktifkan dialog ringkas di ponsel.
-
-Masalah yang diketahui:
-• Gambar album di Tab library juga menjadi lebih kecil.
-• Tata letak pengatur waktu tidur mungkin terlihat tidak biasa."</string>
     <string name="revanced_enable_trim_silence_title">Tambah switch Trim silence</string>
     <string name="revanced_enable_trim_silence_summary">"Menambahkan tombol Trim silence ke menu flyout playback speed.
 
 Info:
 • Fitur ini hanya untuk podcast.
 • Fitur ini masih dalam pengembangan, jadi ini tidak akan stabil."</string>
+    <string name="revanced_enable_compact_dialog_title">Aktifkan dialog ringkas</string>
+    <string name="revanced_enable_compact_dialog_summary">"Aktifkan dialog ringkas di ponsel.
+
+Masalah yang diketahui:
+• Gambar album di Tab library juga menjadi lebih kecil.
+• Tata letak pengatur waktu tidur mungkin terlihat tidak biasa."</string>
     <string name="revanced_hide_flyout_menu_like_dislike_title">Sembunyikan tombol Like dan Dislike</string>
     <string name="revanced_hide_flyout_menu_3_column_component_title">Sembunyikan komponen 3-kolom</string>
     <string name="revanced_hide_flyout_menu_add_to_queue_title">Sembunyikan menu tambahkan ke antrean</string>
@@ -120,10 +120,10 @@ Info:
     <string name="revanced_change_start_page_entry_home">Beranda</string>
     <string name="revanced_change_start_page_entry_library">Koleksi</string>
     <string name="revanced_change_start_page_entry_subscription">Berlangganan</string>
-    <string name="revanced_disable_auto_captions_title">Nonaktifkan teks otomatis paksa</string>
-    <string name="revanced_disable_auto_captions_summary">Teks otomatis paksa yang dinonaktifkan.</string>
     <string name="revanced_disable_dislike_redirection_title">Disable dislike redirection</string>
     <string name="revanced_disable_dislike_redirection_summary">Disables redirection to the next track when clicking the Dislike button.</string>
+    <string name="revanced_disable_auto_captions_title">Nonaktifkan teks otomatis paksa</string>
+    <string name="revanced_disable_auto_captions_summary">Teks otomatis paksa yang dinonaktifkan.</string>
     <string name="revanced_enable_landscape_mode_title">Aktifkan mode lanskap</string>
     <string name="revanced_enable_landscape_mode_summary">Mengaktifkan masuk ke mode lanskap dengan rotasi layar di ponsel.</string>
     <string name="revanced_custom_filter_title">Aktifkan filter kustom</string>
@@ -136,24 +136,24 @@ Info:
     <string name="revanced_hide_button_shelf_summary">Menyembunyikan rak tombol dari beranda dan eksplorasi.</string>
     <string name="revanced_hide_carousel_shelf_title">Sembunyikan rak korsel</string>
     <string name="revanced_hide_carousel_shelf_summary">Menyembunyikan rak korsel dari beranda dan eksplorasi.</string>
-    <string name="revanced_hide_playlist_card_shelf_title">Hide playlist card shelf</string>
-    <string name="revanced_hide_playlist_card_shelf_summary">Hides the playlist card shelf in the feed.</string>
-    <string name="revanced_hide_samples_shelf_title">Hide Samples shelf</string>
-    <string name="revanced_hide_samples_shelf_summary">Hides the Samples shelf in the feed.</string>
     <string name="revanced_hide_cast_button_title">Sembunyikan tombol cast</string>
     <string name="revanced_hide_cast_button_summary">Menyembunyikan tombol cast.</string>
     <string name="revanced_hide_category_bar_title">Sembunyikan bilah kategori</string>
     <string name="revanced_hide_category_bar_summary">Menyembunyikan bilah kategori musik di bagian atas beranda.</string>
     <string name="revanced_hide_floating_button_title">Hide floating button</string>
     <string name="revanced_hide_floating_button_summary">Hides the floating button in the Library tab.</string>
-    <string name="revanced_hide_tap_to_update_button_title">Hide \'Tap to update\' button</string>
-    <string name="revanced_hide_tap_to_update_button_summary">Hides the \'Tap to update\' button.</string>
     <string name="revanced_hide_history_button_title">Sembunyikan tombol riwayat</string>
     <string name="revanced_hide_history_button_summary">Menyembunyikan tombol riwayat di toolbar.</string>
     <string name="revanced_hide_notification_button_title">Hide Notifications button</string>
     <string name="revanced_hide_notification_button_summary">Hides the Notifications button in the toolbar.</string>
+    <string name="revanced_hide_playlist_card_shelf_title">Hide playlist card shelf</string>
+    <string name="revanced_hide_playlist_card_shelf_summary">Hides the playlist card shelf in the feed.</string>
+    <string name="revanced_hide_samples_shelf_title">Hide Samples shelf</string>
+    <string name="revanced_hide_samples_shelf_summary">Hides the Samples shelf in the feed.</string>
     <string name="revanced_hide_sound_search_button_title">Hide sound search button</string>
     <string name="revanced_hide_sound_search_button_summary">Hides the sound search button in the search bar.</string>
+    <string name="revanced_hide_tap_to_update_button_title">Hide \'Tap to update\' button</string>
+    <string name="revanced_hide_tap_to_update_button_summary">Hides the \'Tap to update\' button.</string>
     <string name="revanced_hide_voice_search_button_title">Hide voice search button</string>
     <string name="revanced_hide_voice_search_button_summary">Hides the voice search button in the search bar.</string>
     <string name="revanced_restore_old_style_library_shelf_title">Restore old style library shelf</string>
@@ -190,36 +190,36 @@ This does not bypass the age restriction. It just accepts it automatically."</st
     <string name="revanced_hide_navigation_label_summary">Menyembunyikan label di bilah navigasi.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Player</string>
-    <string name="revanced_disable_mini_player_gesture_title">Nonaktifkan gerakan miniplayer</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Nonaktifkan gesekan untuk mengubah trek di miniplayer.</string>
-    <string name="revanced_disable_player_gesture_title">Menonaktifkan gerakan pemutar</string>
-    <string name="revanced_disable_player_gesture_summary">Nonaktifkan usap untuk mengubah trek di pemutar.</string>
-    <string name="revanced_enable_black_player_background_title">Enable black player background</string>
-    <string name="revanced_enable_black_player_background_summary">Changes the player background color to black.</string>
-    <string name="revanced_enable_color_match_player_title">Aktifkan pencocokan warna pemutar</string>
-    <string name="revanced_enable_color_match_player_summary">Mencocokkan warna pemutar layar penuh dengan yang diperkecil.</string>
-    <string name="revanced_enable_force_minimized_player_title">Aktifkan pemutar yang diminimalkan paksa</string>
-    <string name="revanced_enable_force_minimized_player_summary">Mempertahankan pemutar agar tetap diminimalkan secara permanen meskipun trek lain diputar.</string>
     <string name="revanced_enable_mini_player_next_button_title">Add miniplayer next button</string>
     <string name="revanced_enable_mini_player_next_button_summary">Adds a next track button to the miniplayer.</string>
     <string name="revanced_enable_mini_player_previous_button_title">Add miniplayer previous button</string>
     <string name="revanced_enable_mini_player_previous_button_summary">Adds a previous track button to the miniplayer.</string>
+    <string name="revanced_enable_color_match_player_title">Aktifkan pencocokan warna pemutar</string>
+    <string name="revanced_enable_color_match_player_summary">Mencocokkan warna pemutar layar penuh dengan yang diperkecil.</string>
+    <string name="revanced_enable_black_player_background_title">Enable black player background</string>
+    <string name="revanced_enable_black_player_background_summary">Changes the player background color to black.</string>
+    <string name="revanced_disable_mini_player_gesture_title">Nonaktifkan gerakan miniplayer</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Nonaktifkan gesekan untuk mengubah trek di miniplayer.</string>
+    <string name="revanced_disable_player_gesture_title">Menonaktifkan gerakan pemutar</string>
+    <string name="revanced_disable_player_gesture_summary">Nonaktifkan usap untuk mengubah trek di pemutar.</string>
+    <string name="revanced_enable_force_minimized_player_title">Aktifkan pemutar yang diminimalkan paksa</string>
+    <string name="revanced_enable_force_minimized_player_summary">Mempertahankan pemutar agar tetap diminimalkan secara permanen meskipun trek lain diputar.</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Enable swipe to dismiss miniplayer</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Enables swipe down to dismiss miniplayer.</string>
     <string name="revanced_enable_zen_mode_title">Aktifkan mode zen</string>
     <string name="revanced_enable_zen_mode_summary">Menambahkan rona abu-abu ke pemutar video untuk mengurangi ketegangan mata.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Enable Zen mode in podcasts</string>
     <string name="revanced_enable_zen_mode_podcast_summary">Also enables Zen mode for podcasts.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Hide Audio / Video toggle</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Hides the Audio / Video toggle in the player.</string>
     <string name="revanced_hide_comment_channel_guidelines_title">Hide channel guidelines</string>
     <string name="revanced_hide_comment_channel_guidelines_summary">Hides the channel guidelines at the top of the comments section.</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Hide timestamp and emoji buttons</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Hides the timestamp and emoji buttons when typing comments.</string>
     <string name="revanced_hide_double_tap_overlay_filter_title">Sembunyikan filter overlay double-tap</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary">Menyembunyikan overlay gelap yang muncul ketika double-tap to seek.</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Hide timestamp and emoji buttons</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Hides the timestamp and emoji buttons when typing comments.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Hide fullscreen Share button</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Hides the Share button in the fullscreen player.</string>
+    <string name="revanced_hide_audio_video_switch_toggle_title">Hide Audio / Video toggle</string>
+    <string name="revanced_hide_audio_video_switch_toggle_summary">Hides the Audio / Video toggle in the player.</string>
     <string name="revanced_remember_repeat_state_title">Ingat keadaan pengulangan</string>
     <string name="revanced_remember_repeat_state_summary">Mengingat keadaan pengulangan.</string>
     <string name="revanced_remember_shuffle_state_title">Ingat keadaan pengacakan</string>
@@ -326,32 +326,6 @@ Some features may not work properly in the old player layout."</string>
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Miscellaneous</string>
-    <string name="revanced_bypass_image_region_restrictions_title">Bypass gambar larangan wilayah</string>
-    <string name="revanced_bypass_image_region_restrictions_summary">Mengganti domain yang ke blokir di negara tertentu sehingga playlist thumbnail, channel avatar, dll bisa di terima.</string>
-    <string name="revanced_change_share_sheet_title">Ubah lembar berbagi</string>
-    <string name="revanced_change_share_sheet_summary">Mengubah dari lembar berbagi dalam aplikasi ke lembar berbagi sistem.</string>
-    <string name="revanced_enable_debug_logging_title">Aktifkan pencatatan debug</string>
-    <string name="revanced_enable_debug_logging_summary">Mencetak catatan debug.</string>
-    <string name="revanced_enable_debug_buffer_logging_title">Enable debug buffer logging</string>
-    <string name="revanced_enable_debug_buffer_logging_summary">Includes the buffer in the debug log.</string>
-    <string name="revanced_enable_opus_codec_title">Aktifkan codec opus</string>
-    <string name="revanced_enable_opus_codec_summary">"Mengaktifkan codec audio opus alih-alih codec audio mp4a."</string>
-    <string name="gms_core_settings_title">Open GmsCore</string>
-    <string name="gms_core_settings_summary">Enable cloud messaging to receive notifications.</string>
-    <string name="gms_core_toast_not_installed_message">GmsCore is not installed. Install it.</string>
-    <string name="gms_core_dialog_title">Action needed</string>
-    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore does not have permission to run in the background.
-
-Follow the 'Don't kill my app!' guide for your device, and apply the instructions to your GmsCore installation.
-
-This is required for the app to work."</string>
-    <string name="gms_core_dialog_open_website_text">Open website</string>
-    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"GmsCore battery optimizations must be disabled to prevent issues.
-
-Tap on the continue button and disable battery optimizations."</string>
-    <string name="gms_core_dialog_continue_text">Continue</string>
-    <string name="revanced_sanitize_sharing_links_title">Sanitasi tautan berbagi</string>
-    <string name="revanced_sanitize_sharing_links_summary">Menghapus parameter kueri pelacakan dari URL saat membagikan tautan.</string>
     <string name="revanced_extended_settings_import_export_title">Ekspor / Impor</string>
     <string name="revanced_extended_settings_import_export_summary">Impor atau ekspor setelan sebagai teks.</string>
     <string name="revanced_extended_settings_export_as_file">Export settings to file</string>
@@ -366,4 +340,30 @@ Tap on the continue button and disable battery optimizations."</string>
     <string name="revanced_extended_settings_import_success">Setelan %d diimpor.</string>
     <string name="revanced_extended_settings_reset">Reset</string>
     <string name="revanced_share_copy_settings_success">Setelan disalin ke papan klip.</string>
+    <string name="revanced_bypass_image_region_restrictions_title">Bypass gambar larangan wilayah</string>
+    <string name="revanced_bypass_image_region_restrictions_summary">Mengganti domain yang ke blokir di negara tertentu sehingga playlist thumbnail, channel avatar, dll bisa di terima.</string>
+    <string name="revanced_change_share_sheet_title">Ubah lembar berbagi</string>
+    <string name="revanced_change_share_sheet_summary">Mengubah dari lembar berbagi dalam aplikasi ke lembar berbagi sistem.</string>
+    <string name="revanced_enable_debug_logging_title">Aktifkan pencatatan debug</string>
+    <string name="revanced_enable_debug_logging_summary">Mencetak catatan debug.</string>
+    <string name="revanced_enable_debug_buffer_logging_title">Enable debug buffer logging</string>
+    <string name="revanced_enable_debug_buffer_logging_summary">Includes the buffer in the debug log.</string>
+    <string name="revanced_enable_opus_codec_title">Aktifkan codec opus</string>
+    <string name="revanced_enable_opus_codec_summary">"Mengaktifkan codec audio opus alih-alih codec audio mp4a."</string>
+    <string name="revanced_sanitize_sharing_links_title">Sanitasi tautan berbagi</string>
+    <string name="revanced_sanitize_sharing_links_summary">Menghapus parameter kueri pelacakan dari URL saat membagikan tautan.</string>
+    <string name="gms_core_settings_title">Open GmsCore</string>
+    <string name="gms_core_settings_summary">Enable cloud messaging to receive notifications.</string>
+    <string name="gms_core_toast_not_installed_message">GmsCore is not installed. Install it.</string>
+    <string name="gms_core_dialog_title">Action needed</string>
+    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore does not have permission to run in the background.
+
+Follow the 'Don't kill my app!' guide for your device, and apply the instructions to your GmsCore installation.
+
+This is required for the app to work."</string>
+    <string name="gms_core_dialog_open_website_text">Open website</string>
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"GmsCore battery optimizations must be disabled to prevent issues.
+
+Tap on the continue button and disable battery optimizations."</string>
+    <string name="gms_core_dialog_continue_text">Continue</string>
 </resources>

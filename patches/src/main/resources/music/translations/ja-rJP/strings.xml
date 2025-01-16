@@ -64,18 +64,18 @@
     <string name="revanced_hide_promotion_alert_banner_summary">プロモーションバナーを非表示にします。</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">フライアウトメニュー</string>
-    <string name="revanced_enable_compact_dialog_title">コンパクトなダイアログ</string>
-    <string name="revanced_enable_compact_dialog_summary">"コンパクトなダイアログを有効にします。
-
-既知の問題:
-• ライブラリのアルバムアートが小さくなります。
-• スリープタイマーのレイアウトが異常になる場合があります。"</string>
     <string name="revanced_enable_trim_silence_title">「無音トリム」を有効化</string>
     <string name="revanced_enable_trim_silence_summary">"再生スピードのフライアウトメニューで「無音トリム」スイッチを有効にする。
 
 情報
 - この機能はポッドキャスト用です。
 - この機能はまだ開発中のため、不安定な場合があります。"</string>
+    <string name="revanced_enable_compact_dialog_title">コンパクトなダイアログ</string>
+    <string name="revanced_enable_compact_dialog_summary">"コンパクトなダイアログを有効にします。
+
+既知の問題:
+• ライブラリのアルバムアートが小さくなります。
+• スリープタイマーのレイアウトが異常になる場合があります。"</string>
     <string name="revanced_hide_flyout_menu_like_dislike_title">高評価/低評価ボタンを非表示</string>
     <string name="revanced_hide_flyout_menu_3_column_component_title">3点メニューのコンポーネントを非表示</string>
     <string name="revanced_hide_flyout_menu_add_to_queue_title">「キューに追加」を非表示</string>
@@ -89,6 +89,7 @@
     <string name="revanced_hide_flyout_menu_go_to_episode_title">「エピソードに移動」を非表示</string>
     <string name="revanced_hide_flyout_menu_go_to_podcast_title">「ポッドキャストに移動」を非表示</string>
     <string name="revanced_hide_flyout_menu_help_title">「ヘルプとフィードバック」を非表示</string>
+    <string name="revanced_hide_flyout_menu_pin_to_speed_dial_title">「[クイック アクセス] に固定」を非表示</string>
     <string name="revanced_hide_flyout_menu_play_next_title">「次に再生」を非表示</string>
     <string name="revanced_hide_flyout_menu_quality_title">画質メニューを非表示</string>
     <string name="revanced_hide_flyout_menu_remove_from_library_title">「ライブラリから削除」を非表示</string>
@@ -103,6 +104,7 @@
     <string name="revanced_hide_flyout_menu_start_radio_title">「ラジオを聴く」を非表示</string>
     <string name="revanced_hide_flyout_menu_stats_for_nerds_title">統計情報を非表示</string>
     <string name="revanced_hide_flyout_menu_subscribe_title">登録/解除メニューを非表示</string>
+    <string name="revanced_hide_flyout_menu_unpin_from_speed_dial_title">「[クイック アクセス] への固定を解除」を非表示</string>
     <string name="revanced_hide_flyout_menu_view_song_credit_title">「曲のクレジットを表示」を非表示</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_title">視聴を続ける</string>
     <string name="revanced_replace_flyout_menu_dismiss_queue_continue_watch_summary">YouTubeに切り替えたときに、現在の時間から再生します。</string>
@@ -123,10 +125,10 @@
     <string name="revanced_change_start_page_entry_home">ホーム</string>
     <string name="revanced_change_start_page_entry_library">ライブラリ</string>
     <string name="revanced_change_start_page_entry_subscription">定期購入</string>
-    <string name="revanced_disable_auto_captions_title">字幕の強制を無効化</string>
-    <string name="revanced_disable_auto_captions_summary">動画側で設定されている、字幕の強制は無効です。</string>
     <string name="revanced_disable_dislike_redirection_title">低評価リダイレクトを無効化</string>
     <string name="revanced_disable_dislike_redirection_summary">低評価ボタンを押したとき、次の曲へのリダイレクトするのを無効にする。</string>
+    <string name="revanced_disable_auto_captions_title">字幕の強制を無効化</string>
+    <string name="revanced_disable_auto_captions_summary">動画側で設定されている、字幕の強制は無効です。</string>
     <string name="revanced_enable_landscape_mode_title">横画面モードを有効化</string>
     <string name="revanced_enable_landscape_mode_summary">画面回転で横画面モードに入るようにします。</string>
     <string name="revanced_custom_filter_title">カスタムフィルター</string>
@@ -139,24 +141,24 @@
     <string name="revanced_hide_button_shelf_summary">ホームタブや探索タブのボタン欄を非表示にします。</string>
     <string name="revanced_hide_carousel_shelf_title">カルーセル欄を非表示</string>
     <string name="revanced_hide_carousel_shelf_summary">ホームタブや探索タブのカルーセル欄を非表示にします。</string>
-    <string name="revanced_hide_playlist_card_shelf_title">プレイリストシェルフを非表示</string>
-    <string name="revanced_hide_playlist_card_shelf_summary">プレイリストシェルフを非表示にします。</string>
-    <string name="revanced_hide_samples_shelf_title">サンプルシェルフを非表示</string>
-    <string name="revanced_hide_samples_shelf_summary">フィードからサンプルシェルフを非表示にします。</string>
     <string name="revanced_hide_cast_button_title">キャストボタンを非表示</string>
     <string name="revanced_hide_cast_button_summary">キャストボタンを非表示にします。</string>
     <string name="revanced_hide_category_bar_title">カテゴリーバーを非表示</string>
     <string name="revanced_hide_category_bar_summary">ホームタブの上部にある音楽カテゴリーバーを非表示にします。</string>
     <string name="revanced_hide_floating_button_title">フローティングボタンを非表示</string>
     <string name="revanced_hide_floating_button_summary">ライブラリのフローティングボタンを非表示にします。</string>
-    <string name="revanced_hide_tap_to_update_button_title">「タップして更新」ボタンを非表示</string>
-    <string name="revanced_hide_tap_to_update_button_summary">「タップして更新」ボタンを非表示にします。</string>
     <string name="revanced_hide_history_button_title">履歴ボタンを非表示</string>
     <string name="revanced_hide_history_button_summary">ツールバーの履歴ボタンを非表示にします。</string>
     <string name="revanced_hide_notification_button_title">通知ボタンを非表示</string>
     <string name="revanced_hide_notification_button_summary">ツールバーの通知ボタンを非表示にします。</string>
+    <string name="revanced_hide_playlist_card_shelf_title">プレイリストシェルフを非表示</string>
+    <string name="revanced_hide_playlist_card_shelf_summary">プレイリストシェルフを非表示にします。</string>
+    <string name="revanced_hide_samples_shelf_title">サンプルシェルフを非表示</string>
+    <string name="revanced_hide_samples_shelf_summary">フィードからサンプルシェルフを非表示にします。</string>
     <string name="revanced_hide_sound_search_button_title">サウンドサーチボタンを非表示</string>
     <string name="revanced_hide_sound_search_button_summary">検索バーのサウンドサーチボタンを非表示にします。</string>
+    <string name="revanced_hide_tap_to_update_button_title">「タップして更新」ボタンを非表示</string>
+    <string name="revanced_hide_tap_to_update_button_summary">「タップして更新」ボタンを非表示にします。</string>
     <string name="revanced_hide_voice_search_button_title">ボイスサーチボタンを非表示</string>
     <string name="revanced_hide_voice_search_button_summary">検索バーのボイスサーチボタンを非表示にします。</string>
     <string name="revanced_restore_old_style_library_shelf_title">古いスタイルのライブラリを有効化</string>
@@ -194,36 +196,36 @@
     <string name="revanced_hide_navigation_label_summary">ナビゲーションバーのラベルを非表示にします。</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">プレーヤー</string>
-    <string name="revanced_disable_mini_player_gesture_title">ミニプレーヤージェスチャーを無効にする</string>
-    <string name="revanced_disable_mini_player_gesture_summary">ミニプレーヤーでスワイプによる曲の変更を無効にします</string>
-    <string name="revanced_disable_player_gesture_title">プレイヤージェスチャーを無効にする</string>
-    <string name="revanced_disable_player_gesture_summary">プレイヤーでスワイプによる曲の変更を無効にします。</string>
-    <string name="revanced_enable_black_player_background_title">黒のプレイヤー背景を有効化</string>
-    <string name="revanced_enable_black_player_background_summary">プレイヤーの背景の色を黒に固定します。</string>
-    <string name="revanced_enable_color_match_player_title">カラーマッチプレーヤーを有効化</string>
-    <string name="revanced_enable_color_match_player_summary">ミニプレーヤーと全画面プレーヤーの色を統一します。</string>
-    <string name="revanced_enable_force_minimized_player_title">最小化されたプレーヤーを有効にする</string>
-    <string name="revanced_enable_force_minimized_player_summary">他のトラックが再生されていても、プレーヤーを常に最小化したままにします。</string>
     <string name="revanced_enable_mini_player_next_button_title">「次の曲に進むボタン」を表示</string>
     <string name="revanced_enable_mini_player_next_button_summary">ミニプレーヤーの「次の曲に進むボタン」を表示します。</string>
     <string name="revanced_enable_mini_player_previous_button_title">「前の曲に戻るボタン」を表示</string>
     <string name="revanced_enable_mini_player_previous_button_summary">ミニプレーヤーで「前の曲に戻るボタン」を表示します。</string>
+    <string name="revanced_enable_color_match_player_title">カラーマッチプレーヤーを有効化</string>
+    <string name="revanced_enable_color_match_player_summary">ミニプレーヤーと全画面プレーヤーの色を統一します。</string>
+    <string name="revanced_enable_black_player_background_title">黒のプレイヤー背景を有効化</string>
+    <string name="revanced_enable_black_player_background_summary">プレイヤーの背景の色を黒に固定します。</string>
+    <string name="revanced_disable_mini_player_gesture_title">ミニプレーヤージェスチャーを無効にする</string>
+    <string name="revanced_disable_mini_player_gesture_summary">ミニプレーヤーでスワイプによる曲の変更を無効にします</string>
+    <string name="revanced_disable_player_gesture_title">プレイヤージェスチャーを無効にする</string>
+    <string name="revanced_disable_player_gesture_summary">プレイヤーでスワイプによる曲の変更を無効にします。</string>
+    <string name="revanced_enable_force_minimized_player_title">最小化されたプレーヤーを有効にする</string>
+    <string name="revanced_enable_force_minimized_player_summary">他のトラックが再生されていても、プレーヤーを常に最小化したままにします。</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_title">スワイプしてミニプレーヤーを閉じる</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">下にスワイプしてミニプレーヤーを閉じられるようにします。</string>
     <string name="revanced_enable_zen_mode_title">Zen モードを有効化</string>
     <string name="revanced_enable_zen_mode_summary">動画プレーヤーに灰色の色合いを追加し、目の疲れを軽減します。</string>
     <string name="revanced_enable_zen_mode_podcast_title">ポッドキャストでZenモードを有効化</string>
     <string name="revanced_enable_zen_mode_podcast_summary">ポッドキャストにもZenモードを適用します。</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">曲と動画の切り替えスイッチを非表示</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">プレイヤーの曲と動画の切り替えスイッチを非表示にします。</string>
     <string name="revanced_hide_comment_channel_guidelines_title">コミュニティガイドラインを非表示</string>
     <string name="revanced_hide_comment_channel_guidelines_summary">コメント欄上部のコミュニティガイドラインを非表示にします。</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">タイムスタンプと絵文字ボタンを非表示</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">コメントを入力するときにタイムスタンプと絵文字ボタンを非表示にします。</string>
     <string name="revanced_hide_double_tap_overlay_filter_title">ダブルタップオーバーレイフィルタを非表示</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary">ダブルタップしてシークすると表示される暗いオーバーレイを非表示にします。</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">タイムスタンプと絵文字ボタンを非表示</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">コメントを入力するときにタイムスタンプと絵文字ボタンを非表示にします。</string>
     <string name="revanced_hide_fullscreen_share_button_title">全画面共有ボタンを非表示</string>
     <string name="revanced_hide_fullscreen_share_button_summary">全画面表示のプレイヤーの共有ボタンを非表示にします。</string>
+    <string name="revanced_hide_audio_video_switch_toggle_title">曲と動画の切り替えスイッチを非表示</string>
+    <string name="revanced_hide_audio_video_switch_toggle_summary">プレイヤーの曲と動画の切り替えスイッチを非表示にします。</string>
     <string name="revanced_remember_repeat_state_title">リピートの状態を保存</string>
     <string name="revanced_remember_repeat_state_summary">リピートの状態を記憶します。</string>
     <string name="revanced_remember_shuffle_state_title">シャッフルの状態を保存</string>
@@ -362,6 +364,20 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">その他</string>
+    <string name="revanced_extended_settings_import_export_title">設定のインポート/エクスポート</string>
+    <string name="revanced_extended_settings_import_export_summary">設定をテキストとしてインポート/エクスポートします。</string>
+    <string name="revanced_extended_settings_export_as_file">設定をファイルにエクスポート</string>
+    <string name="revanced_extended_settings_import_as_file">ファイルから設定をインポート</string>
+    <string name="revanced_extended_settings_import_export_as_text">テキストとしてインポート/エクスポート</string>
+    <string name="revanced_extended_settings_export_failed">設定のエクスポートに失敗しました。</string>
+    <string name="revanced_extended_settings_export_success">設定は正常にエクスポートされました。</string>
+    <string name="revanced_extended_settings_import">インポート</string>
+    <string name="revanced_extended_settings_import_copy">コピー</string>
+    <string name="revanced_extended_settings_import_failed">インポートに失敗: %s</string>
+    <string name="revanced_extended_settings_import_reset">設定をデフォルトにリセットしました。</string>
+    <string name="revanced_extended_settings_import_success">%d の設定をインポートしました。</string>
+    <string name="revanced_extended_settings_reset">リセット</string>
+    <string name="revanced_share_copy_settings_success">設定をクリップボードにコピーしました。</string>
     <string name="revanced_bypass_image_region_restrictions_title">画像表示の地域制限を回避</string>
     <string name="revanced_bypass_image_region_restrictions_summary">プレイリストのサムネイルやチャンネルアバターなどを受信できるように、一部の地域でブロックされているドメインを置き換えます。</string>
     <string name="revanced_change_share_sheet_title">共有メニューを変更</string>
@@ -379,12 +395,42 @@ API キーの発行方法については、ここをタップしてください�
     <string name="revanced_disable_music_video_in_album_redirect_type_title">リダイレクトのタイプ</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_summary">公式楽曲にリダイレクトする方法を指定します。</string>
     <string name="revanced_disable_music_video_in_album_redirect_type_entry_redirect">リダイレクト</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_click">曲 / 動画 の切り替えをタップ</string>
+    <string name="revanced_disable_music_video_in_album_redirect_type_entry_on_long_click">曲 / 動画 の切り替えをタップし長押し</string>
     <string name="revanced_enable_debug_logging_title">デバッグログ</string>
     <string name="revanced_enable_debug_logging_summary">デバッグログを出力します。</string>
     <string name="revanced_enable_debug_buffer_logging_title">デバッグバッファログを有効化</string>
     <string name="revanced_enable_debug_buffer_logging_summary">デバッグログをバッファに含めて出力する。</string>
     <string name="revanced_enable_opus_codec_title">Opus コーデックを有効化</string>
     <string name="revanced_enable_opus_codec_summary">"MP4A コーデックの代わりに、Opus コーデックを適用します。"</string>
+    <string name="revanced_sanitize_sharing_links_title">共有リンクのクリーンアップ</string>
+    <string name="revanced_sanitize_sharing_links_summary">リンクを共有する際に、URL からトラッキングクエリパラメーターを削除します。</string>
+    <string name="revanced_spoof_client_title">クライアントを偽装</string>
+    <string name="revanced_spoof_client_summary">"再生の問題を防ぐためにクライアントを偽装します
+
+制限事項
+• OPUSオーディオコーデックはサポートされていない可能性があります。
+• シークバーのサムネイルが表示されない場合があります。
+• 再生履歴はブランドアカウントでは動作しません。"</string>
+    <string name="revanced_spoof_client_type_title">既定のクライアント</string>
+    <string name="revanced_spoof_client_type_summary">"偽装のデフォルトクライアントを定義します。
+
+• Androidクライアントを使用する場合は、「Spoof app version」も使用することを推奨します。"</string>
+    <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
+    <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
+    <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
+    <string name="revanced_spoof_streaming_data_title">ストリーミングデータを偽装</string>
+    <string name="revanced_spoof_streaming_data_summary">"ストリーミングデータを偽装して、再生の問題を防ぎます。
+
+• Spoof client と併用すると、再生に問題が発生する場合があります。"</string>
+    <string name="revanced_spoof_streaming_data_type_title">既定のクライアント</string>
+    <string name="revanced_spoof_streaming_data_type_summary">ストリーミングデータを取得するデフォルトのクライアントを定義します。</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_title">マニア向けの統計を表示</string>
+    <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Stats for nerds でストリーミングデータの取得に使用されるクライアントを定義する。</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
+    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
+    <string name="revanced_default_app_settings_title">「デフォルトで開く」の設定</string>
+    <string name="revanced_default_app_settings_summary">RVX Music でYouTube Music のURLを開くには、「対応リンクを開く」を有効にし、サポートされているURLを有効にします。</string>
     <string name="gms_core_settings_title">GmsCoreを開く</string>
     <string name="gms_core_settings_summary">通知を受け取るには、Cloud Messaging 設定を有効にしてください。</string>
     <string name="gms_core_toast_not_installed_message">GmsCoreがインストールされていません。インストールしてください。</string>
@@ -395,37 +441,4 @@ API キーの発行方法については、ここをタップしてください�
 
 「続行」をタップし、バッテリーの最適化を無効にします。"</string>
     <string name="gms_core_dialog_continue_text">続行</string>
-    <string name="revanced_spoof_client_title">クライアントを偽装</string>
-    <string name="revanced_spoof_client_summary">"再生の問題を防ぐためにクライアントを偽装します
-
-制限事項
-• OPUSオーディオコーデックはサポートされていない可能性があります。
-• シークバーのサムネイルが表示されない場合があります。
-• 再生履歴はブランドアカウントでは動作しません。"</string>
-    <string name="revanced_spoof_client_type_title">既定のクライアント</string>
-    <string name="revanced_spoof_client_type_entry_android_music_4_27">Android Music 4.27.53</string>
-    <string name="revanced_spoof_client_type_entry_android_music_5_29">Android Music 5.29.53</string>
-    <string name="revanced_spoof_client_type_entry_ios_music_6_21">iOS Music 6.21</string>
-    <string name="revanced_spoof_streaming_data_title">ストリーミングデータを偽装</string>
-    <string name="revanced_spoof_streaming_data_type_title">既定のクライアント</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
-    <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
-    <string name="revanced_sanitize_sharing_links_title">共有リンクのクリーンアップ</string>
-    <string name="revanced_sanitize_sharing_links_summary">リンクを共有する際に、URL からトラッキングクエリパラメーターを削除します。</string>
-    <string name="revanced_default_app_settings_title">「デフォルトで開く」の設定</string>
-    <string name="revanced_default_app_settings_summary">RVX Music でYouTube Music のURLを開くには、「対応リンクを開く」を有効にし、サポートされているURLを有効にします。</string>
-    <string name="revanced_extended_settings_import_export_title">設定のインポート/エクスポート</string>
-    <string name="revanced_extended_settings_import_export_summary">設定をテキストとしてインポート/エクスポートします。</string>
-    <string name="revanced_extended_settings_export_as_file">設定をファイルにエクスポート</string>
-    <string name="revanced_extended_settings_import_as_file">ファイルから設定をインポート</string>
-    <string name="revanced_extended_settings_import_export_as_text">テキストとしてインポート/エクスポート</string>
-    <string name="revanced_extended_settings_export_failed">設定のエクスポートに失敗しました。</string>
-    <string name="revanced_extended_settings_export_success">設定は正常にエクスポートされました。</string>
-    <string name="revanced_extended_settings_import">インポート</string>
-    <string name="revanced_extended_settings_import_copy">コピー</string>
-    <string name="revanced_extended_settings_import_failed">インポートに失敗: %s</string>
-    <string name="revanced_extended_settings_import_reset">設定をデフォルトにリセットしました。</string>
-    <string name="revanced_extended_settings_import_success">%d の設定をインポートしました。</string>
-    <string name="revanced_extended_settings_reset">リセット</string>
-    <string name="revanced_share_copy_settings_success">設定をクリップボードにコピーしました。</string>
 </resources>

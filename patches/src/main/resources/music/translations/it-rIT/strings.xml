@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared -->
+    <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_extended_reset_to_default_toast">Resetta ai valori iniziali.</string>
     <!-- Shared Category -->
+    <string name="revanced_extended_restart_first_run">Riavvia per caricare il layout normalmente</string>
+    <string name="revanced_extended_restart_message">Aggiorna e riavvia</string>
     <!-- PreferenceScreen: Account -->
+    <string name="revanced_preference_screen_account_title">Account</string>
     <string name="revanced_hide_account_menu_title">Nascondi il menu dell\'account</string>
     <string name="revanced_hide_account_menu_summary">Nascondi gli elementi del menu dell\'account.</string>
+    <string name="revanced_hide_account_menu_filter_strings_title">Filtro menu dell\'account</string>
+    <string name="revanced_hide_account_menu_filter_strings_summary">Elenco dei nomi dei menu degli account da filtrare, separati da nuove righe.</string>
     <string name="revanced_hide_account_menu_empty_component_title">Nascondi componente vuoto</string>
     <string name="revanced_hide_account_menu_empty_component_summary">Nasconde i componenti vuoti nel menu dell\'account</string>
+    <string name="revanced_hide_handle_title">Nascondi l\'intestazione</string>
     <string name="revanced_hide_terms_container_title">Nascondi contenitore termini</string>
     <string name="revanced_hide_terms_container_summary">Nasconde il contenitore dei termini di servizio.</string>
     <!-- PreferenceScreen: Action Bar -->
@@ -65,14 +73,14 @@
     <!-- PreferenceScreen: Return YouTube Username -->
     <!-- PreferenceScreen: SponsorBlock -->
     <!-- PreferenceScreen: Miscellaneous -->
-    <string name="revanced_enable_debug_logging_title">Abilita la registrazione del debug</string>
-    <string name="revanced_enable_debug_logging_summary">Stampa il registro di debug.</string>
-    <string name="revanced_enable_opus_codec_title">Abilita il codec opus</string>
-    <string name="revanced_enable_opus_codec_summary">"Abilita il codec Opus 250/251 durante la riproduzione dell'audio."</string>
     <string name="revanced_extended_settings_import_export_title">Importa/Esporta</string>
     <string name="revanced_extended_settings_import_export_summary">Importa o esporta le impostazioni come testo.</string>
     <string name="revanced_extended_settings_import">Importa</string>
     <string name="revanced_extended_settings_import_copy">Copia</string>
     <string name="revanced_extended_settings_import_reset">Ripristino impostazioni ai valori predefiniti</string>
     <string name="revanced_extended_settings_import_success">Impostazioni %d importate</string>
+    <string name="revanced_enable_debug_logging_title">Abilita la registrazione del debug</string>
+    <string name="revanced_enable_debug_logging_summary">Stampa il registro di debug.</string>
+    <string name="revanced_enable_opus_codec_title">Abilita il codec opus</string>
+    <string name="revanced_enable_opus_codec_summary">"Abilita il codec Opus 250/251 durante la riproduzione dell'audio."</string>
 </resources>

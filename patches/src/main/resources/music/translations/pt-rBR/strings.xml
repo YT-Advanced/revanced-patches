@@ -67,18 +67,18 @@ Limitações:
     <string name="revanced_hide_promotion_alert_banner_summary">Oculta o banner de alerta de promoção.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Menu flutuante</string>
-    <string name="revanced_enable_compact_dialog_title">Ativar diálogo compacto</string>
-    <string name="revanced_enable_compact_dialog_summary">"Ativa o menu flutuante compacto em telefones.
-
-Limitações:
-• A arte do álbum na guia da Biblioteca fica menor quando organizada em uma grade.
-• O layout do temporizador pode parecer incomum."</string>
     <string name="revanced_enable_trim_silence_title">Adicionar alternador para Cortar silêncio</string>
     <string name="revanced_enable_trim_silence_summary">"Adiciona a opção Cortar silêncio ao menu flutuante de velocidade de reprodução.
 
 Informações:
 • Este recurso é para podcasts.
 • Este recurso ainda está em desenvolvimento, portanto pode ser instável."</string>
+    <string name="revanced_enable_compact_dialog_title">Ativar diálogo compacto</string>
+    <string name="revanced_enable_compact_dialog_summary">"Ativa o menu flutuante compacto em telefones.
+
+Limitações:
+• A arte do álbum na guia da Biblioteca fica menor quando organizada em uma grade.
+• O layout do temporizador pode parecer incomum."</string>
     <string name="revanced_hide_flyout_menu_like_dislike_title">Ocultar botões de Like e Deslike</string>
     <string name="revanced_hide_flyout_menu_3_column_component_title">Ocultar componente de 3 colunas</string>
     <string name="revanced_hide_flyout_menu_add_to_queue_title">Ocultar menu Adicionar à fila</string>
@@ -128,10 +128,10 @@ Informações:
     <string name="revanced_change_start_page_entry_home">Início</string>
     <string name="revanced_change_start_page_entry_library">Biblioteca</string>
     <string name="revanced_change_start_page_entry_subscription">Inscrições</string>
-    <string name="revanced_disable_auto_captions_title">Desativar legendas automáticas</string>
-    <string name="revanced_disable_auto_captions_summary">Desativa as legendas de serem ativadas automaticamente.</string>
     <string name="revanced_disable_dislike_redirection_title">Desativar redirecionamento de dislike</string>
     <string name="revanced_disable_dislike_redirection_summary">Desativa o redirecionamento para a próxima faixa ao clicar no botão de Dislike.</string>
+    <string name="revanced_disable_auto_captions_title">Desativar legendas automáticas</string>
+    <string name="revanced_disable_auto_captions_summary">Desativa a ativação forçada de legendas automáticas.</string>
     <string name="revanced_enable_landscape_mode_title">Ativar modo paisagem</string>
     <string name="revanced_enable_landscape_mode_summary">Ativa o modo paisagem ao girar a tela nos telefones.</string>
     <string name="revanced_custom_filter_title">Ativar filtro personalizado</string>
@@ -144,27 +144,27 @@ Informações:
     <string name="revanced_hide_button_shelf_summary">Oculta o painel de botões no feed.</string>
     <string name="revanced_hide_carousel_shelf_title">Ocultar painel de carrossel</string>
     <string name="revanced_hide_carousel_shelf_summary">Oculta o painel de carrossel no feed.</string>
-    <string name="revanced_hide_playlist_card_shelf_title">Ocultar painel de cartão de lista de reprodução</string>
-    <string name="revanced_hide_playlist_card_shelf_summary">Oculta o painel de cartão de lista de reprodução no feed.</string>
-    <string name="revanced_hide_samples_shelf_title">Ocultar painel Descobertas</string>
-    <string name="revanced_hide_samples_shelf_summary">Oculta o painel Descobertas no feed.</string>
     <string name="revanced_hide_cast_button_title">Ocultar botão Transmissão</string>
     <string name="revanced_hide_cast_button_summary">Oculta o botão Transmissão.</string>
     <string name="revanced_hide_category_bar_title">Ocultar barra de categoria</string>
     <string name="revanced_hide_category_bar_summary">Oculta a barra de categorias.</string>
     <string name="revanced_hide_floating_button_title">Ocultar botão flutuante</string>
     <string name="revanced_hide_floating_button_summary">Oculta o botão flutuante na aba Biblioteca.</string>
-    <string name="revanced_hide_tap_to_update_button_title">Ocultar botão Toque para atualizar</string>
-    <string name="revanced_hide_tap_to_update_button_summary">Oculta o botão Toque para atualizar.</string>
     <string name="revanced_hide_history_button_title">Ocultar botão Histórico</string>
     <string name="revanced_hide_history_button_summary">Oculta o botão Histórico na barra de ferramentas.</string>
     <string name="revanced_hide_notification_button_title">Ocultar botão Notificações</string>
     <string name="revanced_hide_notification_button_summary">Oculta o botão Notificações na barra de ferramentas.</string>
+    <string name="revanced_hide_playlist_card_shelf_title">Ocultar painel de cartão de lista de reprodução</string>
+    <string name="revanced_hide_playlist_card_shelf_summary">Oculta o painel de cartão de lista de reprodução no feed.</string>
+    <string name="revanced_hide_samples_shelf_title">Ocultar painel Descobertas</string>
+    <string name="revanced_hide_samples_shelf_summary">Oculta o painel Descobertas no feed.</string>
     <string name="revanced_hide_sound_search_button_title">Ocultar botão de pesquisa de som</string>
     <string name="revanced_hide_sound_search_button_summary">Oculta o botão de pesquisa de som na barra de pesquisa.</string>
+    <string name="revanced_hide_tap_to_update_button_title">Ocultar botão Toque para atualizar</string>
+    <string name="revanced_hide_tap_to_update_button_summary">Oculta o botão Toque para atualizar.</string>
     <string name="revanced_hide_voice_search_button_title">Ocultar botão de pesquisa por voz</string>
     <string name="revanced_hide_voice_search_button_summary">Oculta o botão de pesquisa por voz na barra de pesquisa.</string>
-    <string name="revanced_restore_old_style_library_shelf_title">Restaurar antigo estilo do painel da biblioteca</string>
+    <string name="revanced_restore_old_style_library_shelf_title">Restaurar a aba antiga da Biblioteca</string>
     <string name="revanced_restore_old_style_library_shelf_summary">Retorna a aba da Biblioteca para o estilo antigo. (Experimental)</string>
     <string name="revanced_remove_viewer_discretion_dialog_title">Remover o diálogo discricionário do visualizador</string>
     <string name="revanced_remove_viewer_discretion_dialog_summary">"Remover o diálogo discricionário de visualização.
@@ -199,36 +199,36 @@ Isso não ignora a restrição de idade, apenas aceita isso automaticamente."</s
     <string name="revanced_hide_navigation_label_summary">Oculta rótulos abaixo dos botões de navegação.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Reprodutor</string>
-    <string name="revanced_disable_mini_player_gesture_title">Desativar gesto do mini reprodutor</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Desativar deslize para alterar faixas no mini reprodutor.</string>
-    <string name="revanced_disable_player_gesture_title">Desativar gesto do reprodutor</string>
-    <string name="revanced_disable_player_gesture_summary">Desativar deslize para alterar faixas no reprodutor.</string>
-    <string name="revanced_enable_black_player_background_title">Ativar fundo do reprodutor preto</string>
-    <string name="revanced_enable_black_player_background_summary">Altera a cor de fundo do reprodutor para preto.</string>
-    <string name="revanced_enable_color_match_player_title">Ativar combinação de cores do reprodutor</string>
-    <string name="revanced_enable_color_match_player_summary">Corresponde à cor do mini reprodutor para o reprodutor em tela cheia.</string>
-    <string name="revanced_enable_force_minimized_player_title">Ativar reprodutor minimizado forçado</string>
-    <string name="revanced_enable_force_minimized_player_summary">Mantém o reprodutor minimizado mesmo quando outra faixa é reproduzida.</string>
     <string name="revanced_enable_mini_player_next_button_title">Adicionar o botão próximo no mini reprodutor</string>
     <string name="revanced_enable_mini_player_next_button_summary">Adiciona o botão próximo no mini reprodutor.</string>
     <string name="revanced_enable_mini_player_previous_button_title">Adicionar o botão anterior no mini reprodutor</string>
     <string name="revanced_enable_mini_player_previous_button_summary">Adiciona o botão anterior no mini reprodutor.</string>
+    <string name="revanced_enable_color_match_player_title">Alterar cor do miniplayer</string>
+    <string name="revanced_enable_color_match_player_summary">Corresponde à cor do mini reprodutor para o reprodutor em tela cheia.</string>
+    <string name="revanced_enable_black_player_background_title">Ativar fundo do reprodutor preto</string>
+    <string name="revanced_enable_black_player_background_summary">Altera a cor de fundo do reprodutor para preto.</string>
+    <string name="revanced_disable_mini_player_gesture_title">Desativar gesto do mini reprodutor</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Desativar deslize para alterar faixas no mini reprodutor.</string>
+    <string name="revanced_disable_player_gesture_title">Desativar gesto do reprodutor</string>
+    <string name="revanced_disable_player_gesture_summary">Desativar deslize para alterar faixas no reprodutor.</string>
+    <string name="revanced_enable_force_minimized_player_title">Ativar reprodutor minimizado forçado</string>
+    <string name="revanced_enable_force_minimized_player_summary">Mantém o reprodutor minimizado mesmo quando outra faixa é reproduzida.</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Ativar deslizar para dispensar o mini reprodutor</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Permite deslizar para baixo para dispensar o mini reprodutor.</string>
     <string name="revanced_enable_zen_mode_title">Ativar modo Calmo</string>
     <string name="revanced_enable_zen_mode_summary">Altera a cor de fundo do reprodutor para cinza claro para reduzir o cansaço visual.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Ativar o modo Calmo em podcasts</string>
     <string name="revanced_enable_zen_mode_podcast_summary">Também ativa o modo Calmo para podcasts.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Ocultar alternador de Áudio / Vídeo</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Oculta o alternador de Áudio / Vídeo no reprodutor.</string>
     <string name="revanced_hide_comment_channel_guidelines_title">Ocultar diretrizes do canal</string>
     <string name="revanced_hide_comment_channel_guidelines_summary">Oculta as diretrizes do canal na parte superior da seção de comentários.</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Ocultar botões de marcação de tempo e emoji</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Oculta os botões de marcação de tempo e emoji ao escrever comentários.</string>
     <string name="revanced_hide_double_tap_overlay_filter_title">Ocultar filtro de sobreposição de toque duplo</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary">Oculta a sobreposição escura que aparece quando um duplo toque para procurar.</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Ocultar botões de marcação de tempo e emoji</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Oculta os botões de marcação de tempo e emoji ao escrever comentários.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Ocultar botão Compartilhar em tela cheia</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Oculta o botão Compartilhar no reprodutor de tela cheia.</string>
+    <string name="revanced_hide_audio_video_switch_toggle_title">Ocultar alternador de Áudio / Vídeo</string>
+    <string name="revanced_hide_audio_video_switch_toggle_summary">Oculta o alternador de Áudio / Vídeo no reprodutor.</string>
     <string name="revanced_remember_repeat_state_title">Lembrar estado de repetição</string>
     <string name="revanced_remember_repeat_state_summary">Lembra o estado da alternância de repetição.</string>
     <string name="revanced_remember_shuffle_state_title">Lembrar estado do modo aleatório</string>
@@ -367,6 +367,20 @@ Clique para ver como emitir uma chave de API."</string>
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Diversos</string>
+    <string name="revanced_extended_settings_import_export_title">Importar / Exportar configurações</string>
+    <string name="revanced_extended_settings_import_export_summary">Importar ou exportar as configurações como texto.</string>
+    <string name="revanced_extended_settings_export_as_file">Exportar configurações para um arquivo</string>
+    <string name="revanced_extended_settings_import_as_file">Importar configurações de um arquivo</string>
+    <string name="revanced_extended_settings_import_export_as_text">Importar / Exportar as configurações como texto</string>
+    <string name="revanced_extended_settings_export_failed">Falha ao exportar configurações.</string>
+    <string name="revanced_extended_settings_export_success">As configurações foram exportadas com sucesso.</string>
+    <string name="revanced_extended_settings_import">Importar</string>
+    <string name="revanced_extended_settings_import_copy">Copiar</string>
+    <string name="revanced_extended_settings_import_failed">A importação falhou: %s.</string>
+    <string name="revanced_extended_settings_import_reset">Configurações redefinidas para o padrão</string>
+    <string name="revanced_extended_settings_import_success">Configurações %d importadas</string>
+    <string name="revanced_extended_settings_reset">Reiniciar</string>
+    <string name="revanced_share_copy_settings_success">Configurações copiadas para área de transferência.</string>
     <string name="revanced_bypass_image_region_restrictions_title">Ignorar restrições de imagem por região</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Substitui o domínio que está bloqueado em algumas regiões para que miniaturas para playlists, avatares de canais, etc. possam ser recebidos.</string>
     <string name="revanced_change_share_sheet_title">Alterar menu de compartilhamento</string>
@@ -396,22 +410,8 @@ Encontre a música oficial se um videoclipe for detectado tocando de um álbum.
 Informações:
 • Os clientes mais recentes do YouTube Music usam o codec de áudio OPUS por padrão.
 • Isto só é válido para usuários que falsificam com clientes muito antigos."</string>
-    <string name="gms_core_settings_title">Abrir GmsCore</string>
-    <string name="gms_core_settings_summary">Ative as mensagens na nuvem para receber notificações.</string>
-    <string name="gms_core_toast_not_installed_message">O GmsCore não está instalado. Instale-o.</string>
-    <string name="gms_core_dialog_title">Ação necessária</string>
-    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"O GmsCore não tem permissão para executar em segundo plano.
-
-Siga o guia Não mate o meu aplicativo para o seu telefone e aplique as instruções para a sua instalação do MicroG.
-
-Isto é necessário para o aplicativo funcionar."</string>
-    <string name="gms_core_dialog_open_website_text">Abrir site</string>
-    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"As otimizações de bateria do GmsCore devem ser desativadas para evitar problemas.
-
-Desativar as otimizações de bateria do GmsCore não afetará negativamente o uso da bateria.
-
-Toque no botão continuar e permita as alterações de otimização."</string>
-    <string name="gms_core_dialog_continue_text">Continuar</string>
+    <string name="revanced_sanitize_sharing_links_title">Limpar links compartilhados</string>
+    <string name="revanced_sanitize_sharing_links_summary">Remove os parâmetros de consulta de rastreamento das URLs ao compartilhar os links.</string>
     <string name="revanced_spoof_client_title">Falsificar cliente</string>
     <string name="revanced_spoof_client_summary">"Falsificar o cliente para evitar problemas de reprodução.
 
@@ -433,22 +433,22 @@ Toque no botão continuar e permita as alterações de otimização."</string>
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Exibir o cliente usado para buscar dados de streaming em estatísticas para nerds.</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
-    <string name="revanced_sanitize_sharing_links_title">Limpar links compartilhados</string>
-    <string name="revanced_sanitize_sharing_links_summary">Remove os parâmetros de consulta de rastreamento das URLs ao compartilhar os links.</string>
     <string name="revanced_default_app_settings_title">Abrir configurações padrão do aplicativo</string>
     <string name="revanced_default_app_settings_summary">Para abrir os links de música do YouTube no RVX Music, ative \'Abrir links suportados\' e ative os endereços web suportados.</string>
-    <string name="revanced_extended_settings_import_export_title">Importar / Exportar configurações</string>
-    <string name="revanced_extended_settings_import_export_summary">Importar ou exportar as configurações como texto.</string>
-    <string name="revanced_extended_settings_export_as_file">Exportar configurações para um arquivo</string>
-    <string name="revanced_extended_settings_import_as_file">Importar configurações de um arquivo</string>
-    <string name="revanced_extended_settings_import_export_as_text">Importar / Exportar as configurações como texto</string>
-    <string name="revanced_extended_settings_export_failed">Falha ao exportar configurações.</string>
-    <string name="revanced_extended_settings_export_success">As configurações foram exportadas com sucesso.</string>
-    <string name="revanced_extended_settings_import">Importar</string>
-    <string name="revanced_extended_settings_import_copy">Copiar</string>
-    <string name="revanced_extended_settings_import_failed">A importação falhou: %s.</string>
-    <string name="revanced_extended_settings_import_reset">Configurações redefinidas para o padrão</string>
-    <string name="revanced_extended_settings_import_success">Configurações %d importadas</string>
-    <string name="revanced_extended_settings_reset">Reiniciar</string>
-    <string name="revanced_share_copy_settings_success">Configurações copiadas para área de transferência.</string>
+    <string name="gms_core_settings_title">Abrir GmsCore</string>
+    <string name="gms_core_settings_summary">Ative as mensagens na nuvem para receber notificações.</string>
+    <string name="gms_core_toast_not_installed_message">O GmsCore não está instalado. Instale-o.</string>
+    <string name="gms_core_dialog_title">Ação necessária</string>
+    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"O GmsCore não tem permissão para executar em segundo plano.
+
+Siga o guia Não mate o meu aplicativo para o seu telefone e aplique as instruções para a sua instalação do MicroG.
+
+Isto é necessário para o aplicativo funcionar."</string>
+    <string name="gms_core_dialog_open_website_text">Abrir site</string>
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"As otimizações de bateria do GmsCore devem ser desativadas para evitar problemas.
+
+Desativar as otimizações de bateria do GmsCore não afetará negativamente o uso da bateria.
+
+Toque no botão continuar e permita as alterações de otimização."</string>
+    <string name="gms_core_dialog_continue_text">Continuar</string>
 </resources>

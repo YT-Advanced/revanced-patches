@@ -67,18 +67,18 @@ Sınırlamalar:
     <string name="revanced_hide_promotion_alert_banner_summary">Promosyon uyarı başlığını gizler.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Açılır menü</string>
-    <string name="revanced_enable_compact_dialog_title">Kompakt diyaloğu etkinleştir</string>
-    <string name="revanced_enable_compact_dialog_summary">"Telefonda kompakt iletişim kutusunu etkinleştirin. 
-
-Bilinen sorunlar: 
-• Kitaplık sekmesindeki albüm resmi, ızgara halinde düzenlendiğinde küçülür. 
-• Uyku zamanlayıcısı düzeni olağandışı görünebilir."</string>
     <string name="revanced_enable_trim_silence_title">Kırpma sessizliğini etkinleştir</string>
     <string name="revanced_enable_trim_silence_summary">"Oynatma hızı açılır menüsüne 'Sessizliği kırp' geçişini etkinleştirir.
 
 Bilgi:
 • Bu özellik podcast'ler içindir.
 • Bu özellik henüz geliştirme aşamasında olduğundan kararsız olabilir."</string>
+    <string name="revanced_enable_compact_dialog_title">Kompakt diyaloğu etkinleştir</string>
+    <string name="revanced_enable_compact_dialog_summary">"Telefonda kompakt iletişim kutusunu etkinleştirin. 
+
+Bilinen sorunlar: 
+• Kitaplık sekmesindeki albüm resmi, ızgara halinde düzenlendiğinde küçülür. 
+• Uyku zamanlayıcısı düzeni olağandışı görünebilir."</string>
     <string name="revanced_hide_flyout_menu_like_dislike_title">Beğen ve beğenme butonunu gizle</string>
     <string name="revanced_hide_flyout_menu_3_column_component_title">3-sütunlu bileşenleri gizle</string>
     <string name="revanced_hide_flyout_menu_add_to_queue_title">Kuyruğa ekle menüsünü gizle</string>
@@ -126,10 +126,10 @@ Bilgi:
     <string name="revanced_change_start_page_entry_home">Ana Sayfa</string>
     <string name="revanced_change_start_page_entry_library">Kitaplık</string>
     <string name="revanced_change_start_page_entry_subscription">Abonelikler</string>
-    <string name="revanced_disable_auto_captions_title">Altyazıların kendiliğinden açılmasını kapat</string>
-    <string name="revanced_disable_auto_captions_summary">Altyazıların kendiliğinden açılmasını devre dışı bırakır.</string>
     <string name="revanced_disable_dislike_redirection_title">Beğenmeme yönlendirmesini devre dışı bırak</string>
     <string name="revanced_disable_dislike_redirection_summary">Beğenmedim düğmesine tıklandığında sonraki parçaya yönlendirmeyi devre dışı bırakır.</string>
+    <string name="revanced_disable_auto_captions_title">Altyazıların kendiliğinden açılmasını kapat</string>
+    <string name="revanced_disable_auto_captions_summary">Altyazıların kendiliğinden açılmasını devre dışı bırakır.</string>
     <string name="revanced_enable_landscape_mode_title">Yatay Modu Etkinleştir</string>
     <string name="revanced_enable_landscape_mode_summary">Telefonlarda ekran döndürme ile manzara moduna geçiş sağlar.</string>
     <string name="revanced_custom_filter_title">Özel filtreyi etkinleştir</string>
@@ -142,24 +142,24 @@ Bilgi:
     <string name="revanced_hide_button_shelf_summary">Düğme rafını ana sayfadan ve keşfet sekmesinden gizler.</string>
     <string name="revanced_hide_carousel_shelf_title">Atlıkarınca rafını gizle</string>
     <string name="revanced_hide_carousel_shelf_summary">Döner rafı ana sayfa ve keşfet sekmesinden gizler.</string>
-    <string name="revanced_hide_playlist_card_shelf_title">Çalma listesi kartı rafını gizle</string>
-    <string name="revanced_hide_playlist_card_shelf_summary">Oynatma listesi kartı rafını ana sayfadan gizler.</string>
-    <string name="revanced_hide_samples_shelf_title">Örnek rafını gizle</string>
-    <string name="revanced_hide_samples_shelf_summary">Feed\'deki örnek rafını gizler.</string>
     <string name="revanced_hide_cast_button_title">\"Yayınla\" butonunu gizle</string>
     <string name="revanced_hide_cast_button_summary">Yayınlama düğmesini gizler.</string>
     <string name="revanced_hide_category_bar_title">Kategor barını Gizle</string>
     <string name="revanced_hide_category_bar_summary">Kategori çubuğunu gizler.</string>
     <string name="revanced_hide_floating_button_title">Yüzen Butonu Gizle</string>
     <string name="revanced_hide_floating_button_summary">Kitaplıktaki Yüzen Butonu Gizle.</string>
-    <string name="revanced_hide_tap_to_update_button_title">Güncellemek için tıkla butonunu gizle</string>
-    <string name="revanced_hide_tap_to_update_button_summary">Güncellemek için tıkla butonunu gizler.</string>
     <string name="revanced_hide_history_button_title">Geçmiş düğmesini gizle</string>
     <string name="revanced_hide_history_button_summary">Araç çubuğundaki geçmiş düğmesini gizler.</string>
     <string name="revanced_hide_notification_button_title">Bildirim butonunu gizle</string>
     <string name="revanced_hide_notification_button_summary">Araç çubuğundaki bildirim düğmesini gizler.</string>
+    <string name="revanced_hide_playlist_card_shelf_title">Çalma listesi kartı rafını gizle</string>
+    <string name="revanced_hide_playlist_card_shelf_summary">Oynatma listesi kartı rafını ana sayfadan gizler.</string>
+    <string name="revanced_hide_samples_shelf_title">Örnek rafını gizle</string>
+    <string name="revanced_hide_samples_shelf_summary">Feed\'deki örnek rafını gizler.</string>
     <string name="revanced_hide_sound_search_button_title">Sesli arama düğmesini gizle</string>
     <string name="revanced_hide_sound_search_button_summary">Arama çubuğundaki ses arama düğmesini gizler.</string>
+    <string name="revanced_hide_tap_to_update_button_title">Güncellemek için tıkla butonunu gizle</string>
+    <string name="revanced_hide_tap_to_update_button_summary">Güncellemek için tıkla butonunu gizler.</string>
     <string name="revanced_hide_voice_search_button_title">Sesli arama düğmesini gizle</string>
     <string name="revanced_hide_voice_search_button_summary">Arama çubuğundaki sesli arama düğmesini gizler.</string>
     <string name="revanced_restore_old_style_library_shelf_title">Eski stil kitaplık rafını geri getir</string>
@@ -197,36 +197,36 @@ Bilgi:
     <string name="revanced_hide_navigation_label_summary">Gezinme çubuğunun altındaki etiketleri gizleyin.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Oynatıcı</string>
-    <string name="revanced_disable_mini_player_gesture_title">Mini oynatıcı hareketini devre dışı bırak</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Mini oynatıcıdaki parçaları değiştirmek için kaydırmayı devre dışı bırakın.</string>
-    <string name="revanced_disable_player_gesture_title">Oynatıcı hareketini devre dışı bırak</string>
-    <string name="revanced_disable_player_gesture_summary">Oynatıcıdaki parçaları değiştirmek için kaydırmayı devre dışı bırakın.</string>
-    <string name="revanced_enable_black_player_background_title">Siyah oynatıcı arka planını etkinleştir</string>
-    <string name="revanced_enable_black_player_background_summary">Oynatıcının arka plan rengini siyaha değiştirir.</string>
-    <string name="revanced_enable_color_match_player_title">Oynatıcı renk eşlemesini etkinleştir</string>
-    <string name="revanced_enable_color_match_player_summary">Küçültülmüş oynatıcının rengi ile tam ekran oynatıcının rengini eşler.</string>
-    <string name="revanced_enable_force_minimized_player_title">Zorla küçültülmüş pencereyi aktifleştir</string>
-    <string name="revanced_enable_force_minimized_player_summary">Başka bir kayıt oynatılıyor ise oynatıcıyı tamamen küçült.</string>
     <string name="revanced_enable_mini_player_next_button_title">Mini oynatıcıyıdaki sonraki düğmesini etkinleştir</string>
     <string name="revanced_enable_mini_player_next_button_summary">Mini oynatıcıda sonraki düğmesini etkinleştirir.</string>
     <string name="revanced_enable_mini_player_previous_button_title">Mini oynatıcıdaki önceki düğmesini etkinleştir</string>
     <string name="revanced_enable_mini_player_previous_button_summary">Mini oynatıcıda önceki düğmesini etkinleştirir.</string>
+    <string name="revanced_enable_color_match_player_title">Oynatıcı renk eşlemesini etkinleştir</string>
+    <string name="revanced_enable_color_match_player_summary">Küçültülmüş oynatıcının rengi ile tam ekran oynatıcının rengini eşler.</string>
+    <string name="revanced_enable_black_player_background_title">Siyah oynatıcı arka planını etkinleştir</string>
+    <string name="revanced_enable_black_player_background_summary">Oynatıcının arka plan rengini siyaha değiştirir.</string>
+    <string name="revanced_disable_mini_player_gesture_title">Mini oynatıcı hareketini devre dışı bırak</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Mini oynatıcıdaki parçaları değiştirmek için kaydırmayı devre dışı bırakın.</string>
+    <string name="revanced_disable_player_gesture_title">Oynatıcı hareketini devre dışı bırak</string>
+    <string name="revanced_disable_player_gesture_summary">Oynatıcıdaki parçaları değiştirmek için kaydırmayı devre dışı bırakın.</string>
+    <string name="revanced_enable_force_minimized_player_title">Zorla küçültülmüş pencereyi aktifleştir</string>
+    <string name="revanced_enable_force_minimized_player_summary">Başka bir kayıt oynatılıyor ise oynatıcıyı tamamen küçült.</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Mini oynatıcıyı kapatmak için kaydırmayı etkinleştirin</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Mini oynatıcıyı kapatmak için aşağı kaydırmayı etkinleştirir.</string>
     <string name="revanced_enable_zen_mode_title">Zen modunu aç/kapa</string>
     <string name="revanced_enable_zen_mode_summary">Video oynatıcıya açık gri bir ton ekleyerek göz yorgunluğunu azaltır.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Podcastlerde zen modunu aç/kapa</string>
     <string name="revanced_enable_zen_mode_podcast_summary">Zen modu podcast\'lere de uygulanır.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Ses video geçiş anahtarını gizle</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Oynatıcıdaki ses video geçiş anahtarını gizler.</string>
     <string name="revanced_hide_comment_channel_guidelines_title">Kanal yönergelerini gizle</string>
     <string name="revanced_hide_comment_channel_guidelines_summary">Yorumları bölümünün üst kısmında kanal kurallarını gizler.</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Zaman damgası ve emoji düğmelerini gizle</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Yorum yazarken zaman damgası ve emoji düğmelerini gizle.</string>
     <string name="revanced_hide_double_tap_overlay_filter_title">Çift tıklama arayüz filtresini gizle</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary">Çift tıklayarak sürükleme etkinken kara arayüzü gizler.</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Zaman damgası ve emoji düğmelerini gizle</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Yorum yazarken zaman damgası ve emoji düğmelerini gizle.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Tam ekran\'daki paylaş butonunu gizle</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Tam ekran oynatıcısındaki paylaş butonunu gizler.</string>
+    <string name="revanced_hide_audio_video_switch_toggle_title">Ses video geçiş anahtarını gizle</string>
+    <string name="revanced_hide_audio_video_switch_toggle_summary">Oynatıcıdaki ses video geçiş anahtarını gizler.</string>
     <string name="revanced_remember_repeat_state_title">Tekrarın durumunu hatırlar</string>
     <string name="revanced_remember_repeat_state_summary">Tekrarın durumunu hatırlar.</string>
     <string name="revanced_remember_shuffle_state_title">Karıştır durumunu hatırlar</string>
@@ -372,6 +372,20 @@ APl anahtarının nasıl verileceğini görmek için tıklayın."</string>
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Diğer ayarlar</string>
+    <string name="revanced_extended_settings_import_export_title">Ayarları içe / dışa aktar</string>
+    <string name="revanced_extended_settings_import_export_summary">Ayarları içe veya dışa aktarın.</string>
+    <string name="revanced_extended_settings_export_as_file">Ayarları bir dosyaya dışa aktar</string>
+    <string name="revanced_extended_settings_import_as_file">Ayarları dosyadan içe aktar</string>
+    <string name="revanced_extended_settings_import_export_as_text">Ayarları yazı olarak içe / dışa aktar</string>
+    <string name="revanced_extended_settings_export_failed">Ayarlar dışa aktarılamadı.</string>
+    <string name="revanced_extended_settings_export_success">Ayarlar başarıyla dışa aktarıldı.</string>
+    <string name="revanced_extended_settings_import">İçe aktar</string>
+    <string name="revanced_extended_settings_import_copy">Kopyala</string>
+    <string name="revanced_extended_settings_import_failed">İçe aktarma başarısız oldu: %s.</string>
+    <string name="revanced_extended_settings_import_reset">Ayarlar varsayılana sıfırlandı.</string>
+    <string name="revanced_extended_settings_import_success">%d ayar içe aktarıldı.</string>
+    <string name="revanced_extended_settings_reset">Sıfırla</string>
+    <string name="revanced_share_copy_settings_success">Ayarlar panoya kopyalandı</string>
     <string name="revanced_bypass_image_region_restrictions_title">Resimlerin bölge kısıtlamalarını atla</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Bazı bölgelerde engellenen alan adını değiştirerek oynatma listesi küçük resimlerinin, kanal avatarlarının vb. alınabilmesini sağlar.</string>
     <string name="revanced_change_share_sheet_title">Paylaşım sayfasını değiştir</string>
@@ -388,6 +402,17 @@ APl anahtarının nasıl verileceğini görmek için tıklayın."</string>
 Bilgi:
 • En yeni Android istemcileri varsayılan olarak opus ses codec bileşenini kullanır.
 • Bu yalnızca çok eski istemcilerle sahtecilik yapan kullanıcılar için geçerlidir."</string>
+    <string name="revanced_sanitize_sharing_links_title">Paylaşılan bağlantıları sterilize edin</string>
+    <string name="revanced_sanitize_sharing_links_summary">Bağlantıları paylaşırken, tracking query parametrelerini URL\'lerden kaldırır.</string>
+    <string name="revanced_spoof_client_title">Sahte istemci</string>
+    <string name="revanced_spoof_client_summary">"\"Oynatma sorunlarını önlemek için istemciyi taklit edin.
+
+Sınırlamalar:
+• OPUS ses kodeği desteklenmiyor olabilir.
+• Arama çubuğu küçük resmi mevcut olmayabilir.
+• İzleme geçmişi marka hesabında çalışmaz."</string>
+    <string name="revanced_default_app_settings_title">Varsayılan uygulama ayarlarını aç</string>
+    <string name="revanced_default_app_settings_summary">YouTube Müzik bağlantılarını RVX Music\'te açmak için \'Desteklenen bağlantıları aç\'ı etkinleştirin ve desteklenen web adreslerini etkinleştirin.</string>
     <string name="gms_core_settings_title">GmsCore\'yi aç</string>
     <string name="gms_core_settings_summary">Bildirimleri alabilmek için bulut mesajlaşmayı etkinleştirin.</string>
     <string name="gms_core_toast_not_installed_message">GmsCore yüklü değil. Yükleyin.</string>
@@ -402,29 +427,4 @@ Uygulamanın çalışması için bu gereklidir."</string>
 
 Devam düğmesine dokunun ve pil optimizasyonlarını devre dışı bırakın."</string>
     <string name="gms_core_dialog_continue_text">Devam Et</string>
-    <string name="revanced_spoof_client_title">Sahte istemci</string>
-    <string name="revanced_spoof_client_summary">"\"Oynatma sorunlarını önlemek için istemciyi taklit edin.
-
-Sınırlamalar:
-• OPUS ses kodeği desteklenmiyor olabilir.
-• Arama çubuğu küçük resmi mevcut olmayabilir.
-• İzleme geçmişi marka hesabında çalışmaz."</string>
-    <string name="revanced_sanitize_sharing_links_title">Paylaşılan bağlantıları sterilize edin</string>
-    <string name="revanced_sanitize_sharing_links_summary">Bağlantıları paylaşırken, tracking query parametrelerini URL\'lerden kaldırır.</string>
-    <string name="revanced_default_app_settings_title">Varsayılan uygulama ayarlarını aç</string>
-    <string name="revanced_default_app_settings_summary">YouTube Müzik bağlantılarını RVX Music\'te açmak için \'Desteklenen bağlantıları aç\'ı etkinleştirin ve desteklenen web adreslerini etkinleştirin.</string>
-    <string name="revanced_extended_settings_import_export_title">Ayarları içe / dışa aktar</string>
-    <string name="revanced_extended_settings_import_export_summary">Ayarları içe veya dışa aktarın.</string>
-    <string name="revanced_extended_settings_export_as_file">Ayarları bir dosyaya dışa aktar</string>
-    <string name="revanced_extended_settings_import_as_file">Ayarları dosyadan içe aktar</string>
-    <string name="revanced_extended_settings_import_export_as_text">Ayarları yazı olarak içe / dışa aktar</string>
-    <string name="revanced_extended_settings_export_failed">Ayarlar dışa aktarılamadı.</string>
-    <string name="revanced_extended_settings_export_success">Ayarlar başarıyla dışa aktarıldı.</string>
-    <string name="revanced_extended_settings_import">İçe aktar</string>
-    <string name="revanced_extended_settings_import_copy">Kopyala</string>
-    <string name="revanced_extended_settings_import_failed">İçe aktarma başarısız oldu: %s.</string>
-    <string name="revanced_extended_settings_import_reset">Ayarlar varsayılana sıfırlandı.</string>
-    <string name="revanced_extended_settings_import_success">%d ayar içe aktarıldı.</string>
-    <string name="revanced_extended_settings_reset">Sıfırla</string>
-    <string name="revanced_share_copy_settings_success">Ayarlar panoya kopyalandı</string>
 </resources>

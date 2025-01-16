@@ -67,18 +67,18 @@
     <string name="revanced_hide_promotion_alert_banner_summary">Приховує банер рекламних сповіщень.</string>
     <!-- PreferenceScreen: Flyout -->
     <string name="revanced_preference_screen_flyout_title">Спливаюче меню</string>
-    <string name="revanced_enable_compact_dialog_title">Увімкнути компактний вигляд меню</string>
-    <string name="revanced_enable_compact_dialog_summary">"Вмикає компактне спливаюче вікно на телефонах.
-
-Відомі проблеми:
-• Обкладинка альбому на вкладці \"Бібліотека\" стає меншою, якщо вона впорядкована сіткою.
-• Вікно \"Таймер сну\" може з'являтися незвично."</string>
     <string name="revanced_enable_trim_silence_title">Додати перемикач \"Пропуск тиші\"</string>
     <string name="revanced_enable_trim_silence_summary">"Додає перемикач \"Пропуск тиші\" у спливаючому меню швидкості відео.
 
 Інформація:
 • Ця функція призначена для подкастів.
 • Ця функція все ще у розробці, тому може бути нестабільною."</string>
+    <string name="revanced_enable_compact_dialog_title">Увімкнути компактний вигляд меню</string>
+    <string name="revanced_enable_compact_dialog_summary">"Вмикає компактне спливаюче вікно на телефонах.
+
+Відомі проблеми:
+• Обкладинка альбому на вкладці \"Бібліотека\" стає меншою, якщо вона впорядкована сіткою.
+• Вікно \"Таймер сну\" може з'являтися незвично."</string>
     <string name="revanced_hide_flyout_menu_like_dislike_title">Приховати \"Подобається\" і \"Не подобається\"</string>
     <string name="revanced_hide_flyout_menu_3_column_component_title">Приховати 3-стовпцевий компонент</string>
     <string name="revanced_hide_flyout_menu_add_to_queue_title">Приховати \"Додати в чергу\"</string>
@@ -128,10 +128,10 @@
     <string name="revanced_change_start_page_entry_home">Головна</string>
     <string name="revanced_change_start_page_entry_library">Бібліотека</string>
     <string name="revanced_change_start_page_entry_subscription">Підписка</string>
-    <string name="revanced_disable_auto_captions_title">Вимкнути примусові авто субтитри</string>
-    <string name="revanced_disable_auto_captions_summary">Вимикає автоматичне ввімкнення субтитрів.</string>
     <string name="revanced_disable_dislike_redirection_title">Вимкнути перенаправлення при \"Не подобається\"</string>
     <string name="revanced_disable_dislike_redirection_summary">Вимикає перенаправлення на наступний трек при натисканні на кнопку \"Не подобається\".</string>
+    <string name="revanced_disable_auto_captions_title">Вимкнути примусові авто субтитри</string>
+    <string name="revanced_disable_auto_captions_summary">Вимикає автоматичне ввімкнення субтитрів.</string>
     <string name="revanced_enable_landscape_mode_title">Увімкнути ландшафтний режим</string>
     <string name="revanced_enable_landscape_mode_summary">Вмикає ландшафтний режим під час повороту екрана на телефонах.</string>
     <string name="revanced_custom_filter_title">Увімкнути користувацький фільтр</string>
@@ -144,24 +144,24 @@
     <string name="revanced_hide_button_shelf_summary">Приховує кнопки \"Новинки\", \"Хіт-паради\", \"Настрій і жанри\" на вкладці \"Навігація\".</string>
     <string name="revanced_hide_carousel_shelf_title">Приховати карусель треків</string>
     <string name="revanced_hide_carousel_shelf_summary">Приховує карусель треків на вкладках \"Головна\" та \"Навігація\".</string>
-    <string name="revanced_hide_playlist_card_shelf_title">Приховати полицю карток списку відтворення</string>
-    <string name="revanced_hide_playlist_card_shelf_summary">Приховує полицю карток списку відтворення в стрічці.</string>
-    <string name="revanced_hide_samples_shelf_title">Приховати полицю \"Семпли\"</string>
-    <string name="revanced_hide_samples_shelf_summary">Приховує полицю \"Семпли для вас\" у стрічці.</string>
     <string name="revanced_hide_cast_button_title">Приховати кнопку \"Трансляція\"</string>
     <string name="revanced_hide_cast_button_summary">Приховує кнопку \"Трансляція\" в плеєрі та мініплеєрі.</string>
     <string name="revanced_hide_category_bar_title">Приховати панель категорій</string>
     <string name="revanced_hide_category_bar_summary">Приховує панель категорій.</string>
     <string name="revanced_hide_floating_button_title">Приховати плаваючу кнопку</string>
     <string name="revanced_hide_floating_button_summary">Приховує плаваючу кнопку у вкладці \"Бібліотека\".</string>
-    <string name="revanced_hide_tap_to_update_button_title">Приховати кнопку оновлення</string>
-    <string name="revanced_hide_tap_to_update_button_summary">Приховує кнопку оновлення.</string>
     <string name="revanced_hide_history_button_title">Приховати кнопку історії</string>
     <string name="revanced_hide_history_button_summary">Приховує кнопку історії на панелі інструментів вкладки \"Бібліотека\".</string>
     <string name="revanced_hide_notification_button_title">Приховати кнопку сповіщень</string>
     <string name="revanced_hide_notification_button_summary">Приховує кнопку сповіщень на панелі інструментів.</string>
+    <string name="revanced_hide_playlist_card_shelf_title">Приховати полицю карток списку відтворення</string>
+    <string name="revanced_hide_playlist_card_shelf_summary">Приховує полицю карток списку відтворення в стрічці.</string>
+    <string name="revanced_hide_samples_shelf_title">Приховати полицю \"Семпли\"</string>
+    <string name="revanced_hide_samples_shelf_summary">Приховує полицю \"Семпли для вас\" у стрічці.</string>
     <string name="revanced_hide_sound_search_button_title">Приховати кнопку пошуку музики</string>
     <string name="revanced_hide_sound_search_button_summary">Приховує кнопку пошуку музики у панелі пошуку.</string>
+    <string name="revanced_hide_tap_to_update_button_title">Приховати кнопку оновлення</string>
+    <string name="revanced_hide_tap_to_update_button_summary">Приховує кнопку оновлення.</string>
     <string name="revanced_hide_voice_search_button_title">Приховати кнопку голосового пошуку</string>
     <string name="revanced_hide_voice_search_button_summary">Приховує кнопку голосового пошуку у панелі пошуку.</string>
     <string name="revanced_restore_old_style_library_shelf_title">Відновити старий стиль вкладки \"Бібліотека\"</string>
@@ -199,36 +199,36 @@
     <string name="revanced_hide_navigation_label_summary">Приховує підписи кнопок на панелі навігації.</string>
     <!-- PreferenceScreen: Player -->
     <string name="revanced_preference_screen_player_title">Плеєр</string>
-    <string name="revanced_disable_mini_player_gesture_title">Вимкнути жести мініплеєра</string>
-    <string name="revanced_disable_mini_player_gesture_summary">Вимикає жести перемикання треків у мініплеєрі.</string>
-    <string name="revanced_disable_player_gesture_title">Вимкнути жести плеєра</string>
-    <string name="revanced_disable_player_gesture_summary">Вимикає жести перемикання треків у плеєрі.</string>
-    <string name="revanced_enable_black_player_background_title">Увімкнути чорний фон плеєра</string>
-    <string name="revanced_enable_black_player_background_summary">Змінює адаптивний колір фона плеєра на чорний.</string>
-    <string name="revanced_enable_color_match_player_title">Увімкнути колірну відповідність плеєрів</string>
-    <string name="revanced_enable_color_match_player_summary">Колір мініплеєра повторює колір повноекранного плеєра.</string>
-    <string name="revanced_enable_force_minimized_player_title">Увімкнути мініплеєр на постійній основі</string>
-    <string name="revanced_enable_force_minimized_player_summary">Тримає плеєр згорнутим, навіть коли відтворюється інший трек.</string>
     <string name="revanced_enable_mini_player_next_button_title">Додати кнопку наступне у мініплеєр</string>
     <string name="revanced_enable_mini_player_next_button_summary">Додає кнопку наступного треку у мініплеєр.</string>
     <string name="revanced_enable_mini_player_previous_button_title">Додати кнопку попереднє у мініплеєр</string>
     <string name="revanced_enable_mini_player_previous_button_summary">Додає кнопку попереднього треку у мініплеєр.</string>
+    <string name="revanced_enable_color_match_player_title">Увімкнути колірну відповідність плеєрів</string>
+    <string name="revanced_enable_color_match_player_summary">Колір мініплеєра повторює колір повноекранного плеєра.</string>
+    <string name="revanced_enable_black_player_background_title">Увімкнути чорний фон плеєра</string>
+    <string name="revanced_enable_black_player_background_summary">Змінює адаптивний колір фона плеєра на чорний.</string>
+    <string name="revanced_disable_mini_player_gesture_title">Вимкнути жести мініплеєра</string>
+    <string name="revanced_disable_mini_player_gesture_summary">Вимикає жести перемикання треків у мініплеєрі.</string>
+    <string name="revanced_disable_player_gesture_title">Вимкнути жести плеєра</string>
+    <string name="revanced_disable_player_gesture_summary">Вимикає жести перемикання треків у плеєрі.</string>
+    <string name="revanced_enable_force_minimized_player_title">Увімкнути мініплеєр на постійній основі</string>
+    <string name="revanced_enable_force_minimized_player_summary">Тримає плеєр згорнутим, навіть коли відтворюється інший трек.</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_title">Увімкнути жест закриття мініплеєру</string>
     <string name="revanced_enable_swipe_to_dismiss_mini_player_summary">Вмикає жест вниз для закриття мініплеєру.</string>
     <string name="revanced_enable_zen_mode_title">Увімкнути режим \"Дзен\"</string>
     <string name="revanced_enable_zen_mode_summary">Змінює колір фона плеєра на світло-сірий, щоб зменшити навантаження на очі.</string>
     <string name="revanced_enable_zen_mode_podcast_title">Увімкнути режим \"Дзен\" у подкастах</string>
     <string name="revanced_enable_zen_mode_podcast_summary">Режим \"Дзен\" також застосовується до подкастів.</string>
-    <string name="revanced_hide_audio_video_switch_toggle_title">Приховати перемикач \"пісня | відео\"</string>
-    <string name="revanced_hide_audio_video_switch_toggle_summary">Приховує перемикач \"пісня | відео\" у плеєрі.</string>
     <string name="revanced_hide_comment_channel_guidelines_title">Приховати правила каналу</string>
     <string name="revanced_hide_comment_channel_guidelines_summary">Приховує правила каналу у верхній частині секції коментарів.</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Приховати мітку часу та емодзі</string>
-    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Приховує кнопки мітки часу та емодзі під час введення коментарів.</string>
     <string name="revanced_hide_double_tap_overlay_filter_title">Приховати фільтр подвійного натискання</string>
     <string name="revanced_hide_double_tap_overlay_filter_summary">Приховує затемнення, яке з’являється під час подвійного натискання для перемотування.</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_title">Приховати мітку часу та емодзі</string>
+    <string name="revanced_hide_comment_timestamp_and_emoji_buttons_summary">Приховує кнопки мітки часу та емодзі під час введення коментарів.</string>
     <string name="revanced_hide_fullscreen_share_button_title">Приховати \"Поділитися\" повноекранного режиму</string>
     <string name="revanced_hide_fullscreen_share_button_summary">Приховує кнопку \"Поділитися\" в повноекранному плеєрі.</string>
+    <string name="revanced_hide_audio_video_switch_toggle_title">Приховати перемикач \"пісня | відео\"</string>
+    <string name="revanced_hide_audio_video_switch_toggle_summary">Приховує перемикач \"пісня | відео\" у плеєрі.</string>
     <string name="revanced_remember_repeat_state_title">Запам\'ятовувати стан повтору</string>
     <string name="revanced_remember_repeat_state_summary">Запам\'ятовує стан кнопки \"Повтор відтворення\".</string>
     <string name="revanced_remember_shuffle_state_title">Запам\'ятовувати стан перемішування</string>
@@ -367,6 +367,20 @@
     <string name="revanced_sb_about_api">sponsor.ajay.app</string>
     <!-- PreferenceScreen: Miscellaneous -->
     <string name="revanced_preference_screen_misc_title">Різне</string>
+    <string name="revanced_extended_settings_import_export_title">Імпорт / Експорт налаштувань</string>
+    <string name="revanced_extended_settings_import_export_summary">Імпортує або експортує налаштування.</string>
+    <string name="revanced_extended_settings_export_as_file">Експорт налаштувань у файл</string>
+    <string name="revanced_extended_settings_import_as_file">Імпорт налаштувань із файлу</string>
+    <string name="revanced_extended_settings_import_export_as_text">Імпорт або експорт налаштувань у вигляді тексту</string>
+    <string name="revanced_extended_settings_export_failed">Не вдалося експортувати налаштування.</string>
+    <string name="revanced_extended_settings_export_success">Налаштування було вдало експортовано.</string>
+    <string name="revanced_extended_settings_import">Імпортувати</string>
+    <string name="revanced_extended_settings_import_copy">Копіювати</string>
+    <string name="revanced_extended_settings_import_failed">Не вдалося імпортувати налаштування: %s.</string>
+    <string name="revanced_extended_settings_import_reset">Налаштування скинуто до стандартних.</string>
+    <string name="revanced_extended_settings_import_success">Налаштування в кількості: %d успішно відновлено</string>
+    <string name="revanced_extended_settings_reset">Скинути</string>
+    <string name="revanced_share_copy_settings_success">Налаштування скопійовано до буфера обміну.</string>
     <string name="revanced_bypass_image_region_restrictions_title">Змінити домен зображень</string>
     <string name="revanced_bypass_image_region_restrictions_summary">Замінює домен для зображень, заблокований у деяких регіонах, що дозволить отримувати мініатюри списків відтворення, аватари каналів тощо.</string>
     <string name="revanced_change_share_sheet_title">Змінити діалог поширення</string>
@@ -396,22 +410,8 @@
 Інформація:
 • Останні YouTube Music клієнти за умовчанням використовують аудіокодек OPUS.
 • Це буде корисно лише для користувачів, які користуються дуже старими клієнтами."</string>
-    <string name="gms_core_settings_title">Відкрити GmsCore</string>
-    <string name="gms_core_settings_summary">Увімкніть \"Хмарні повідомлення\", щоб отримувати сповіщення.</string>
-    <string name="gms_core_toast_not_installed_message">GmsCore не встановлено. Встановіть.</string>
-    <string name="gms_core_dialog_title">Потрібна дія</string>
-    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore не дозволено працювати у фоні.
-
-Дотримуйтесь посібника \"Don't kill my app\" для вашого пристрою і застосуйте інструкції для встановлення GmsCore.
-
-Це необхідно для того, щоб програма працювала."</string>
-    <string name="gms_core_dialog_open_website_text">Відкрити сайт</string>
-    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Необхідно вимкнути оптимізацію енергії для MicroG GmsCore, щоб запобігти проблемам.
-
-Вимкнення оптимізації енергії для MicroG не вплине негативно на час автономної роботи.
-
-Натисніть кнопку \"Продовжити\" та вимкніть оптимізацію."</string>
-    <string name="gms_core_dialog_continue_text">Продовжити</string>
+    <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>
+    <string name="revanced_sanitize_sharing_links_summary">Видаляє параметри запиту відстеження з URL-адрес під час обміну посиланнями.</string>
     <string name="revanced_spoof_client_title">Підміна клієнта</string>
     <string name="revanced_spoof_client_summary">"Підробити клієнт, щоб запобігти проблемам із відтворенням.
 
@@ -433,22 +433,22 @@
     <string name="revanced_spoof_streaming_data_stats_for_nerds_summary">Показує клієнт, який використовується для отримання потокових даних у \"Статистиці для сисадмінів\".</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_vr">Android VR</string>
     <string name="revanced_spoof_streaming_data_type_entry_android_music">Android Music</string>
-    <string name="revanced_sanitize_sharing_links_title">Обробляти поширення посилань</string>
-    <string name="revanced_sanitize_sharing_links_summary">Видаляє параметри запиту відстеження з URL-адрес під час обміну посиланнями.</string>
     <string name="revanced_default_app_settings_title">Відкрити налаштування за замовчуванням</string>
     <string name="revanced_default_app_settings_summary">Щоб відкривати посилання на YouTube Music у RVX Music, увімкніть \"Відкривати підтримувані посилання\" та активуйте підтримувані веб-адреси.</string>
-    <string name="revanced_extended_settings_import_export_title">Імпорт / Експорт налаштувань</string>
-    <string name="revanced_extended_settings_import_export_summary">Імпортує або експортує налаштування.</string>
-    <string name="revanced_extended_settings_export_as_file">Експорт налаштувань у файл</string>
-    <string name="revanced_extended_settings_import_as_file">Імпорт налаштувань із файлу</string>
-    <string name="revanced_extended_settings_import_export_as_text">Імпорт або експорт налаштувань у вигляді тексту</string>
-    <string name="revanced_extended_settings_export_failed">Не вдалося експортувати налаштування.</string>
-    <string name="revanced_extended_settings_export_success">Налаштування було вдало експортовано.</string>
-    <string name="revanced_extended_settings_import">Імпортувати</string>
-    <string name="revanced_extended_settings_import_copy">Копіювати</string>
-    <string name="revanced_extended_settings_import_failed">Не вдалося імпортувати налаштування: %s.</string>
-    <string name="revanced_extended_settings_import_reset">Налаштування скинуто до стандартних.</string>
-    <string name="revanced_extended_settings_import_success">Налаштування в кількості: %d успішно відновлено</string>
-    <string name="revanced_extended_settings_reset">Скинути</string>
-    <string name="revanced_share_copy_settings_success">Налаштування скопійовано до буфера обміну.</string>
+    <string name="gms_core_settings_title">Відкрити GmsCore</string>
+    <string name="gms_core_settings_summary">Увімкніть \"Хмарні повідомлення\", щоб отримувати сповіщення.</string>
+    <string name="gms_core_toast_not_installed_message">GmsCore не встановлено. Встановіть.</string>
+    <string name="gms_core_dialog_title">Потрібна дія</string>
+    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore не дозволено працювати у фоні.
+
+Дотримуйтесь посібника \"Don't kill my app\" для вашого пристрою і застосуйте інструкції для встановлення GmsCore.
+
+Це необхідно для того, щоб програма працювала."</string>
+    <string name="gms_core_dialog_open_website_text">Відкрити сайт</string>
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"Необхідно вимкнути оптимізацію енергії для MicroG GmsCore, щоб запобігти проблемам.
+
+Вимкнення оптимізації енергії для MicroG не вплине негативно на час автономної роботи.
+
+Натисніть кнопку \"Продовжити\" та вимкніть оптимізацію."</string>
+    <string name="gms_core_dialog_continue_text">Продовжити</string>
 </resources>
