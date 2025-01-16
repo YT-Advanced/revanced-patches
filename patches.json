@@ -747,7 +747,26 @@
     "options": []
   },
   {
-    "name": "Disable auto audio tracks",
+    "name": "Disable dislike redirection",
+    "description": "Adds an option to disable redirection to the next track when clicking the Dislike button.",
+    "use": true,
+    "dependencies": [
+      "Settings for YouTube Music"
+    ],
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53"
+      ]
+    },
+    "options": []
+  },
+  {
+    "name": "Disable forced auto audio tracks",
     "description": "Adds an option to disable audio tracks from being automatically enabled.",
     "use": true,
     "dependencies": [
@@ -767,7 +786,7 @@
     "options": []
   },
   {
-    "name": "Disable auto captions",
+    "name": "Disable forced auto captions",
     "description": "Adds an option to disable captions from being automatically enabled.",
     "use": true,
     "dependencies": [
@@ -787,7 +806,7 @@
     "options": []
   },
   {
-    "name": "Disable auto captions",
+    "name": "Disable forced auto captions",
     "description": "Adds an option to disable captions from being automatically enabled.",
     "use": true,
     "dependencies": [
@@ -803,25 +822,6 @@
         "19.05.36",
         "19.16.39",
         "19.44.39"
-      ]
-    },
-    "options": []
-  },
-  {
-    "name": "Disable dislike redirection",
-    "description": "Adds an option to disable redirection to the next track when clicking the Dislike button.",
-    "use": true,
-    "dependencies": [
-      "Settings for YouTube Music"
-    ],
-    "compatiblePackages": {
-      "com.google.android.apps.youtube.music": [
-        "6.20.51",
-        "6.29.59",
-        "6.42.55",
-        "6.51.53",
-        "7.16.53",
-        "7.25.53"
       ]
     },
     "options": []
@@ -922,7 +922,7 @@
   },
   {
     "name": "Enable OPUS codec",
-    "description": "Adds an options to enable the OPUS audio codec if the player response includes.",
+    "description": "Adds an options to enable the OPUS audio codec if the player response includes it.",
     "use": true,
     "dependencies": [
       "BytecodePatch",
@@ -942,7 +942,7 @@
   },
   {
     "name": "Enable OPUS codec",
-    "description": "Adds an options to enable the OPUS audio codec if the player response includes.",
+    "description": "Adds an options to enable the OPUS audio codec if the player response includes it.",
     "use": true,
     "dependencies": [
       "BytecodePatch",
@@ -1563,7 +1563,7 @@
   {
     "name": "Hide navigation buttons",
     "description": "Adds options to hide buttons in the navigation bar.",
-    "use": false,
+    "use": true,
     "dependencies": [
       "Settings for Reddit"
     ],
@@ -1812,7 +1812,7 @@
   },
   {
     "name": "Miniplayer",
-    "description": "Adds options to change the in app minimized player, and if patching target 19.16+ adds options to use modern miniplayers.",
+    "description": "Adds options to change the in-app minimized player, and if patching target 19.16+ adds options to use modern miniplayers.",
     "use": true,
     "dependencies": [
       "ResourcePatch",
@@ -1905,7 +1905,7 @@
   },
   {
     "name": "Overlay buttons",
-    "description": "Adds options to display overlay buttons in the video player.",
+    "description": "Adds options to display useful overlay buttons in the video player.",
     "use": true,
     "dependencies": [
       "BytecodePatch",
@@ -2344,6 +2344,7 @@
       "BytecodePatch",
       "BytecodePatch",
       "ResourcePatch",
+      "BytecodePatch",
       "BytecodePatch"
     ],
     "compatiblePackages": {
@@ -2646,7 +2647,7 @@
   },
   {
     "name": "Theme",
-    "description": "Changes the app\u0027s theme to the values specified in patch options.",
+    "description": "Changes the app\u0027s themes to the values specified in patch options.",
     "use": true,
     "dependencies": [
       "ResourcePatch",
