@@ -35,6 +35,8 @@ private lateinit var settingsStatusLoadMethod: MutableMethod
 
 var is_2024_18_or_greater = false
     private set
+var is_2024_41_or_greater = false
+    private set
 
 private val settingsBytecodePatch = bytecodePatch(
     description = "settingsBytecodePatch"
@@ -56,6 +58,7 @@ private val settingsBytecodePatch = bytecodePatch(
                     .replace(".", "").toInt()
 
             is_2024_18_or_greater = 2024180 <= versionNumber
+            is_2024_41_or_greater = 2024100 <= versionNumber
         }
 
         /**
