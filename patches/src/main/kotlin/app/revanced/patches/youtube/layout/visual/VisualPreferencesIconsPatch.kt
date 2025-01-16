@@ -254,6 +254,7 @@ private var preferenceKey = setOf(
     "offline_key",
     "pair_with_tv_key",
     "parent_tools_key",
+    "playback_key",
     "premium_early_access_browse_page_key",
     "privacy_key",
     "subscription_product_setting_key",
