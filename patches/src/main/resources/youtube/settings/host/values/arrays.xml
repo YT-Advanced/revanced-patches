@@ -39,6 +39,7 @@
     <string-array name="revanced_change_start_page_entries">
         <item>@string/revanced_change_start_page_entry_default</item>
         <item>@string/revanced_change_start_page_entry_browse</item>
+        <item>@string/revanced_change_start_page_entry_channels</item>
         <item>@string/revanced_change_start_page_entry_courses</item>
         <item>@string/revanced_change_start_page_entry_explore</item>
         <item>@string/revanced_change_start_page_entry_fashion</item>
@@ -51,7 +52,7 @@
         <item>@string/revanced_change_start_page_entry_music</item>
         <item>@string/revanced_change_start_page_entry_news</item>
         <item>@string/revanced_change_start_page_entry_notifications</item>
-        <item>@string/revanced_change_start_page_entry_podcasts</item>
+        <item>@string/revanced_change_start_page_entry_playlist</item>
         <item>@string/revanced_change_start_page_entry_search</item>
         <item>@string/revanced_change_start_page_entry_shopping</item>
         <item>@string/revanced_change_start_page_entry_shorts</item>
@@ -64,6 +65,7 @@
     <string-array name="revanced_change_start_page_entry_values">
         <item>ORIGINAL</item>
         <item>BROWSE</item>
+        <item>CHANNELS</item>
         <item>COURSES</item>
         <item>EXPLORE</item>
         <item>FASHION</item>
@@ -76,6 +78,7 @@
         <item>MUSIC</item>
         <item>NEWS</item>
         <item>NOTIFICATIONS</item>
+        <item>PLAYLIST</item>
         <item>PODCASTS</item>
         <item>SEARCH</item>
         <item>SHOPPING</item>
