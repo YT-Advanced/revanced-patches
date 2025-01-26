@@ -377,7 +377,7 @@ If the layout of the player screen changes due to server-side changes, unintende
     <string name="revanced_change_start_page_title">Change start page</string>
     <string name="revanced_change_start_page_entry_default">Default</string>
     <string name="revanced_change_start_page_entry_browse">Browse channels</string>
-    <string name="revanced_change_start_page_entry_channels">Channels</string>
+    <string name="revanced_change_start_page_entry_channels"All subscriptions</string>
     <string name="revanced_change_start_page_entry_courses">Courses / Learning</string>
     <string name="revanced_change_start_page_entry_explore">Explore</string>
     <string name="revanced_change_start_page_entry_fashion">Fashion &amp; Beauty</string>
