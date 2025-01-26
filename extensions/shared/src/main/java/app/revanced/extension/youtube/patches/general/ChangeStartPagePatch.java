@@ -33,6 +33,7 @@ public final class ChangeStartPagePatch {
         LIBRARY("FElibrary", TRUE),
         MOVIE("FEstorefront", TRUE),
         NOTIFICATIONS("FEactivity", TRUE),
+        PODCASTS("FEpodcasts_destination", TRUE),
         SUBSCRIPTIONS("FEsubscriptions", TRUE),
         TRENDING("FEtrending", TRUE),
         YOUR_CLIPS("FEclips", TRUE),
@@ -46,7 +47,6 @@ public final class ChangeStartPagePatch {
         LIVE("UC4R8DWoMoI7CAwX8_LjQHig", TRUE),
         MUSIC("UC-9-kyTW8ZkZNDHQJ6FgpwQ", TRUE),
         NEWS("UCYfdidRxbB8Qhf0Nx7ioOYw", TRUE),
-        PODCASTS("UCNVkxRPqsBNejO6B9thG9Xw", TRUE),
         SHOPPING("UCkYQyvc_i9hXEo4xic9Hh2g", TRUE),
         SPORTS("UCEgdi0XIXXZ-qJOFPf4JSKw", TRUE),
 
