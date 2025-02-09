@@ -9,6 +9,7 @@ import app.revanced.patcher.extensions.InstructionExtensions.removeInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.patch.bytecodePatch
+import app.revanced.patcher.patch.resourcePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
 import app.revanced.patches.shared.extension.Constants.PATCHES_PATH
 import app.revanced.patches.shared.extension.Constants.SPOOF_PATH
@@ -21,7 +22,10 @@ import app.revanced.patches.youtube.utils.patch.PatchList.SPOOF_STREAMING_DATA
 import app.revanced.patches.youtube.utils.request.buildRequestPatch
 import app.revanced.patches.youtube.utils.request.hookBuildRequest
 import app.revanced.patches.youtube.utils.settings.ResourceUtils.addPreference
+import app.revanced.patches.youtube.utils.settings.ResourceUtils.getContext
 import app.revanced.patches.youtube.utils.settings.settingsPatch
+import app.revanced.util.ResourceGroup
+import app.revanced.util.copyResources
 import app.revanced.util.findInstructionIndicesReversedOrThrow
 import app.revanced.util.findMethodOrThrow
 import app.revanced.util.fingerprint.definingClassOrThrow
@@ -43,6 +47,24 @@ import com.android.tools.smali.dexlib2.immutable.ImmutableMethodParameter
 private const val EXTENSION_CLASS_DESCRIPTOR =
     "$SPOOF_PATH/SpoofStreamingDataPatch;"
 
+// region Copy PoToken script.
+
+private val spoofStreamingDataResourcePatch = resourcePatch(
+    description = "spoofStreamingDataResourcePatch"
+) {
+    execute {
+        getContext().copyResources(
+            "youtube/potoken",
+            ResourceGroup(
+                "raw",
+                "po_token.html",
+            )
+        )
+    }
+}
+
+// endregion
+
 val spoofStreamingDataPatch = bytecodePatch(
     SPOOF_STREAMING_DATA.title,
     SPOOF_STREAMING_DATA.summary
@@ -54,6 +76,7 @@ val spoofStreamingDataPatch = bytecodePatch(
         baseSpoofUserAgentPatch(YOUTUBE_PACKAGE_NAME),
         blockRequestPatch,
         buildRequestPatch,
+        spoofStreamingDataResourcePatch,
     )
 
     execute {

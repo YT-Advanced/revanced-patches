@@ -19,11 +19,6 @@ import app.revanced.extension.shared.utils.Utils;
 
 @SuppressWarnings("unused")
 public class SpoofStreamingDataPatch extends BlockRequestPatch {
-    private static final String PO_TOKEN =
-            BaseSettings.SPOOF_STREAMING_DATA_PO_TOKEN.get();
-    private static final String VISITOR_DATA =
-            BaseSettings.SPOOF_STREAMING_DATA_VISITOR_DATA.get();
-
     /**
      * Any unreachable ip address.  Used to intentionally fail requests.
      */
@@ -75,7 +70,7 @@ public class SpoofStreamingDataPatch extends BlockRequestPatch {
                 return;
             }
 
-            StreamingDataRequest.fetchRequest(id, requestHeaders, VISITOR_DATA, PO_TOKEN);
+            StreamingDataRequest.fetchRequest(id, requestHeaders);
         }
     }
 
