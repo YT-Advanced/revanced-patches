@@ -1,5 +1,6 @@
 package app.revanced.extension.shared.patches.spoof.potoken
 
+import android.app.Activity
 import android.os.Handler
 import android.os.Looper
 import android.webkit.CookieManager
@@ -9,7 +10,6 @@ import app.revanced.extension.shared.patches.spoof.requests.PlayerRoutes
 import app.revanced.extension.shared.requests.Requester
 import app.revanced.extension.shared.requests.Route.CompiledRoute
 import app.revanced.extension.shared.utils.Logger
-import app.revanced.extension.shared.utils.Utils
 import kotlinx.coroutines.runBlocking
 import org.json.JSONException
 import org.json.JSONObject
@@ -82,7 +82,7 @@ class PoTokenGenerator {
         return null
     }
 
-    fun getPoTokenResult(): PoTokenResult? {
+    fun getPoTokenResult(activity: Activity): PoTokenResult? {
         if (!supportsWebView) {
             return null
         }
@@ -97,7 +97,7 @@ class PoTokenGenerator {
                     poTokenGenerator?.let { Handler(Looper.getMainLooper()).post { it.close() } }
 
                     // create a new poTokenGenerator
-                    poTokenGenerator = PoTokenWebView.newPoTokenGenerator(Utils.getContext())
+                    poTokenGenerator = PoTokenWebView.newPoTokenGenerator(activity)
 
                     // The streaming poToken needs to be generated exactly once before generating
                     // any other (player) tokens.

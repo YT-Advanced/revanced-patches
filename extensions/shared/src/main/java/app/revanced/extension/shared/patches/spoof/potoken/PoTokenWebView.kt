@@ -1,5 +1,6 @@
 package app.revanced.extension.shared.patches.spoof.potoken
 
+import android.app.Activity
 import android.annotation.TargetApi
 import android.content.Context
 import android.os.Build
@@ -275,10 +276,10 @@ class PoTokenWebView private constructor(
             return@runCatching parseStringAndDisconnect(connection)
         }
 
-        suspend fun newPoTokenGenerator(context: Context): PoTokenWebView {
+        suspend fun newPoTokenGenerator(activity: Activity): PoTokenWebView {
             return suspendCancellableCoroutine { continuation ->
                 Handler(Looper.getMainLooper()).post {
-                    val poTokenWebView = PoTokenWebView(context, continuation)
+                    val poTokenWebView = PoTokenWebView(activity.getApplicationContext(), continuation)
                     poTokenWebView.loadHtmlAndObtainBotguard()
                 }
             }

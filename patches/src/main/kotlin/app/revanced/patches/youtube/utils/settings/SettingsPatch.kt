@@ -9,7 +9,7 @@ import app.revanced.patches.shared.extension.Constants.EXTENSION_UTILS_PATH
 import app.revanced.patches.shared.mainactivity.injectConstructorMethodCall
 import app.revanced.patches.shared.mainactivity.injectOnCreateMethodCall
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
-import app.revanced.patches.youtube.utils.extension.Constants.UTILS_PATH
+import app.revanced.patches.youtube.utils.extension.Constants.INITIALIZATION_CLASS_DESCRIPTOR
 import app.revanced.patches.youtube.utils.extension.sharedExtensionPatch
 import app.revanced.patches.youtube.utils.fix.attributes.themeAttributesPatch
 import app.revanced.patches.youtube.utils.fix.cairo.cairoFragmentPatch
@@ -32,9 +32,6 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import org.w3c.dom.Element
 import java.nio.file.Files
 import java.util.jar.Manifest
-
-private const val EXTENSION_INITIALIZATION_CLASS_DESCRIPTOR =
-    "$UTILS_PATH/InitializationPatch;"
 
 private const val EXTENSION_THEME_METHOD_DESCRIPTOR =
     "$EXTENSION_UTILS_PATH/BaseThemeUtils;->setTheme(Ljava/lang/Enum;)V"
@@ -64,11 +61,11 @@ private val settingsBytecodePatch = bytecodePatch(
         }
 
         injectOnCreateMethodCall(
-            EXTENSION_INITIALIZATION_CLASS_DESCRIPTOR,
+            INITIALIZATION_CLASS_DESCRIPTOR,
             "setExtendedUtils"
         )
         injectOnCreateMethodCall(
-            EXTENSION_INITIALIZATION_CLASS_DESCRIPTOR,
+            INITIALIZATION_CLASS_DESCRIPTOR,
             "onCreate"
         )
         injectConstructorMethodCall(

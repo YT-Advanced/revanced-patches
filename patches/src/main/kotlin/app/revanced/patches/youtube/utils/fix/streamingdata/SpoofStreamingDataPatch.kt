@@ -14,11 +14,14 @@ import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMu
 import app.revanced.patches.shared.extension.Constants.PATCHES_PATH
 import app.revanced.patches.shared.extension.Constants.SPOOF_PATH
 import app.revanced.patches.shared.formatStreamModelConstructorFingerprint
+import app.revanced.patches.shared.mainactivity.injectOnCreateMethodCall
 import app.revanced.patches.shared.spoof.blockrequest.blockRequestPatch
 import app.revanced.patches.shared.spoof.useragent.baseSpoofUserAgentPatch
 import app.revanced.patches.youtube.utils.compatibility.Constants.COMPATIBLE_PACKAGE
 import app.revanced.patches.youtube.utils.compatibility.Constants.YOUTUBE_PACKAGE_NAME
+import app.revanced.patches.youtube.utils.extension.Constants.INITIALIZATION_CLASS_DESCRIPTOR
 import app.revanced.patches.youtube.utils.patch.PatchList.SPOOF_STREAMING_DATA
+import app.revanced.patches.youtube.utils.mainactivity.mainActivityResolvePatch
 import app.revanced.patches.youtube.utils.request.buildRequestPatch
 import app.revanced.patches.youtube.utils.request.hookBuildRequest
 import app.revanced.patches.youtube.utils.settings.ResourceUtils.addPreference
@@ -76,6 +79,7 @@ val spoofStreamingDataPatch = bytecodePatch(
         baseSpoofUserAgentPatch(YOUTUBE_PACKAGE_NAME),
         blockRequestPatch,
         buildRequestPatch,
+        mainActivityResolvePatch,
         spoofStreamingDataResourcePatch,
     )
 
@@ -336,6 +340,15 @@ val spoofStreamingDataPatch = bytecodePatch(
         hlsCurrentTimeFingerprint.injectLiteralInstructionBooleanCall(
             HLS_CURRENT_TIME_FEATURE_FLAG,
             "$EXTENSION_CLASS_DESCRIPTOR->fixHLSCurrentTime(Z)Z"
+        )
+
+        // endregion
+
+        // region Initialize PoToken WebView.
+
+        injectOnCreateMethodCall(
+            INITIALIZATION_CLASS_DESCRIPTOR,
+            "initializePoTokenWebView"
         )
 
         // endregion

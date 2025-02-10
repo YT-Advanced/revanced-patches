@@ -174,7 +174,7 @@ class StreamingDataRequest private constructor(
 
                 var botGuardPoToken: String? = null
                 if (clientType.requirePoToken) {
-                    botGuardPoToken = poTokenGenerator.getPoTokenResult()?.let {
+                    botGuardPoToken = poTokenGenerator.getPoTokenResult(Utils.getActivity())?.let {
                         connection.setRequestProperty(VISITOR_ID_HEADER, it.visitorId)
                         it.botGuardPoToken
                     } ?: null
